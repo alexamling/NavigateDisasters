@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: River
+  m_Shader: {fileID: 4800000, guid: e9170d50833194e40b4d18d98452c15f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: ed1c8fbf93f183f42a4843a1cc3b3695, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorControl:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorControlCube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 9cda328e4b6954d70841a8a66f42ec08, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 2800000, guid: ce66bf33735743549b7c5ba702139372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Foam:
+        m_Texture: {fileID: 2800000, guid: a92b6664d2ca8d244a6aaa0aada2cc9b, type: 3}
+        m_Scale: {x: 15, y: 15}
+        m_Offset: {x: 0, y: 0}
+    - _FresnelTex1:
+        m_Texture: {fileID: 2800000, guid: ed1c8fbf93f183f42a4843a1cc3b3695, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FresnelTex2:
+        m_Texture: {fileID: 2800000, guid: 6d84d3cd605402241bacfd03d739f7c8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightMap:
+        m_Texture: {fileID: 2800000, guid: 6901e9fc0c387144e9b651a7aee3699e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 58d3595a1a99a484780257d986448b2e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Wave1:
+        m_Texture: {fileID: 2800000, guid: ed1c8fbf93f183f42a4843a1cc3b3695, type: 3}
+        m_Scale: {x: 0.3, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _Wave2:
+        m_Texture: {fileID: 2800000, guid: e8c53bbc0d75c8e46be5ddcc1210ec52, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Wave3:
+        m_Texture: {fileID: 2800000, guid: 9ccda912858d1134bace7f4c478adac9, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _Wave4:
+        m_Texture: {fileID: 2800000, guid: 3c009930046b98f42b5cc2e380d2234c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Bias: -1
+    - _BiasGlare: -1
+    - _BumpAmt: 128
+    - _Cutoff: 0.05357143
+    - _DepthTransperent: 0.6
+    - _DisplacementOffset: 1.5
+    - _DisplacementSpeed: 15
+    - _Distortion: 350
+    - _DistortionVert: 4
+    - _EdgeDistortion: 0.5
+    - _FPOW: 5
+    - _FadeBlend: 1
+    - _FadeBlend2: 0.05
+    - _FadeDepth: 0.07
+    - _FoamIntensity: 0.2
+    - _Fresnel: 0.7
+    - _GerstnerIntensity: 1
+    - _Gloss: 1.2
+    - _Height: 0.12500003
+    - _OffsetFresnel: 0.3
+    - _OffsetXHeightMap: 0
+    - _OffsetYHeightMap: 1
+    - _Power: 1.5
+    - _PowerGlare: 4
+    - _R0: 0.9
+    - _ReflectionBrightness: 0.3
+    - _RimPower: 2.5982144
+    - _Scale: 12
+    - _ScaleGlare: 500
+    - _Shininess: 100
+    - _Specular: 1
+    - _SunIntensity: 1.5
+    - _TEST: -0.4
+    - _Test: 1
+    - _TexturesScale: 20
+    - _WaveScale: 4
+    m_Colors:
+    - WaveSpeed: {r: 19, g: 9, b: -16, a: -7}
+    - _BumpDirection: {r: 1, g: 1, b: -1, a: -1}
+    - _BumpOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.820718, g: 0.93337905, b: 0.9705882, a: 1}
+    - _Direction: {r: 0.05, g: 3, b: 13, a: -5}
+    - _FadeColor: {r: 0.18247186, g: 0.39878145, b: 0.5514706, a: 1}
+    - _FoamDirection: {r: 0, g: 10, b: -1, a: -1}
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FresnelColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _GAmplitude: {r: 0.1, g: 0.15, b: 0.2, a: 0.15}
+    - _GDirectionAB: {r: 1.27, g: -0.3, b: 0.23, a: 0.06}
+    - _GDirectionCD: {r: -0.79, g: 1, b: 0.71, a: 0.49}
+    - _GFrequency: {r: 1.73, g: 0.7, b: 1.52, a: 1.3}
+    - _GSpeed: {r: -5, g: -2, b: -5, a: 3}
+    - _GSteepness: {r: 0.05, g: 0.44, b: 0.2, a: 0.05}
+    - _GlareColor: {r: 0.09861591, g: 0.10726643, b: 0.11764705, a: 1}
+    - _ReflectColor: {r: 0.78676474, g: 0.87647057, b: 1, a: 0.5019608}
+    - _ReflectionColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    - _RimColor: {r: 0.125, g: 0.5293104, b: 1, a: 0.5019608}
+    - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecularDirection: {r: 5, g: 0.5, b: 0, a: 0}
+    - _TEST2: {r: 1, g: 1, b: -1, a: -1}
+    - _Test: {r: 3, g: 30, b: 0, a: 0}
+    - _horizonColor: {r: 0.172, g: 0.463, b: 0.435, a: 0}

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Caustic
+  m_Shader: {fileID: 4800000, guid: 3a3d1d8ad01add64f9eb9e994ff65d1a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2999
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CausticMask:
+        m_Texture: {fileID: 2800000, guid: 78507f106930b1548818255aba4b0b9d, type: 3}
+        m_Scale: {x: 6, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _CausticTex1:
+        m_Texture: {fileID: 2800000, guid: ed6944099db53e8479bfb3225357ffae, type: 3}
+        m_Scale: {x: 5, y: 8}
+        m_Offset: {x: 0, y: 0}
+    - _CausticTex2:
+        m_Texture: {fileID: 2800000, guid: 9b99d4c636bf86147b63ade779913d99, type: 3}
+        m_Scale: {x: 6, y: 7}
+        m_Offset: {x: 0, y: 0}
+    - _CutoutTex:
+        m_Texture: {fileID: 2800000, guid: 9783d02201c1c3d428be1daf12e50264, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FalloffTex:
+        m_Texture: {fileID: 2800000, guid: 5ba3b18ea7aa8d745be7cd6b6af8986b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b424f0373b1c90241a6ac1470d92ed4a, type: 3}
+        m_Scale: {x: 7, y: 7}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorStrength: 0.3
+    - _Distortion: 6
+    - _Height: 3
+    - _InvFade: 0.01
+    - _YPos: 1.5
+    - _x: 1
+    - _y: 1
+    m_Colors:
+    - _CausticDirection: {r: -3, g: -3, b: 4, a: -1.45}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DistortionDirection: {r: 1.2, g: 3, b: 0, a: 0}
+    - _TintColor: {r: 0.9044118, g: 0.94858015, b: 1, a: 1}

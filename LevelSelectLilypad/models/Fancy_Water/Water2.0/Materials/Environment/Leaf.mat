@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Leaf
+  m_Shader: {fileID: 54, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 5f3fbbf5697141e40856982f1ed249b3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossMap:
+        m_Texture: {fileID: 2800000, guid: 433e737376b505448b1aa44f8692058e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 433e737376b505448b1aa44f8692058e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowOffset:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TranslucencyMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cull: 2
+    - _Cutoff: 1
+    - _InvFade: 1
+    - _ShadowStrength: 0.80357146
+    - _Shininess: 0.198
+    - _SquashAmount: 1
+    - _TranslucencyViewDependency: 1
+    - _WindQuality: 0
+    m_Colors:
+    - _Color: {r: 1, g: 0.78823525, b: 0.4705882, a: 1}
+    - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.3764706}
+    - _ImageTexCoords0: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords1: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords10: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords11: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords12: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords13: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords14: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords15: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords16: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords17: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords18: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords19: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords2: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords20: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords21: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords22: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords23: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords24: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords25: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords26: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords27: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords28: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords29: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords3: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords30: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords31: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords4: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords5: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords6: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords7: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords8: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords9: {r: 0, g: 0, b: 0, a: 0}
+    - _InstanceData: {r: 0, g: 0, b: 0, a: 0}
+    - _Scale: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0.20588237, g: 0.20588237, b: 0.20588237, a: 0}
+    - _TintColor: {r: 0.5441177, g: 0.5441177, b: 0.5441177, a: 1}
+    - _TranslucencyColor: {r: 0.6887976, g: 0.8088235, b: 0.3687284, a: 1}
+    - _TreeInfo0: {r: 0, g: 0, b: 0, a: 0}
+    - _TreeInfo1: {r: 0, g: 0, b: 0, a: 0}
+    - _TreeInfo2: {r: 0, g: 0, b: 0, a: 0}
+    - _TreeInfo3: {r: 0, g: 0, b: 0, a: 0}
+    - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeSize0: {r: 0, g: 0, b: 0, a: 0}
+    - _TreeSize1: {r: 0, g: 0, b: 0, a: 0}
+    - _TreeSize2: {r: 0, g: 0, b: 0, a: 0}
+    - _TreeSize3: {r: 0, g: 0, b: 0, a: 0}

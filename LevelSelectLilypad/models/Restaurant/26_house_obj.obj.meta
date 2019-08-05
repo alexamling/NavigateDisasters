@@ -1,0 +1,1079 @@
+fileFormatVersion: 2
+guid: 88b8e469a84fc2e4c901cbb96db21011
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: 5
+    100004: AvizstudioToolsATiles027
+    100006: AvizstudioToolsATiles028
+    100008: Box006
+    100010: Box007
+    100012: Box008
+    100014: Box009
+    100016: Box010
+    100018: Box011
+    100020: Box012
+    100022: Box013
+    100024: Box014
+    100026: Box015
+    100028: Box016
+    100030: Box017
+    100032: Box018
+    100034: Box019
+    100036: Box020
+    100038: Box021
+    100040: Box022
+    100042: Box023
+    100044: Box024
+    100046: Box025
+    100048: Box026
+    100050: Box027
+    100052: Box028
+    100054: Box029
+    100056: Box030
+    100058: Box031
+    100060: Box032
+    100062: Box033
+    100064: Box034
+    100066: Box035
+    100068: Box036
+    100070: Box037
+    100072: Box038
+    100074: Box039
+    100076: Box040
+    100078: Box041
+    100080: Box042
+    100082: Box043
+    100084: Box044
+    100086: Box045
+    100088: Box046
+    100090: Box047
+    100092: Box048
+    100094: Box049
+    100096: Box050
+    100098: Box051
+    100100: Box052
+    100102: Box053
+    100104: Box054
+    100106: Box055
+    100108: Box056
+    100110: Box057
+    100112: dveri002
+    100114: dveri003
+    100116: dveri004
+    100118: Line003
+    100120: Loft001
+    100122: Loft002
+    100124: Object007
+    100126: Object008
+    100128: Object009
+    100130: Object010
+    100132: Object011
+    100134: Object012
+    100136: Object013
+    100138: Object014
+    100140: Object015
+    100142: Object016
+    100144: Object017
+    100146: Object018
+    100148: Object019
+    100150: Object020
+    100152: Object021
+    100154: Object022
+    100156: Object023
+    100158: Object024
+    100160: Object025
+    100162: Object031
+    100164: Object032
+    100166: Object033
+    100168: Object308
+    100170: Plane002
+    100172: Plane003
+    100174: Plane004
+    100176: Plane005
+    100178: Plane006
+    100180: Plane007
+    400000: //RootNode
+    400002: 5
+    400004: AvizstudioToolsATiles027
+    400006: AvizstudioToolsATiles028
+    400008: Box006
+    400010: Box007
+    400012: Box008
+    400014: Box009
+    400016: Box010
+    400018: Box011
+    400020: Box012
+    400022: Box013
+    400024: Box014
+    400026: Box015
+    400028: Box016
+    400030: Box017
+    400032: Box018
+    400034: Box019
+    400036: Box020
+    400038: Box021
+    400040: Box022
+    400042: Box023
+    400044: Box024
+    400046: Box025
+    400048: Box026
+    400050: Box027
+    400052: Box028
+    400054: Box029
+    400056: Box030
+    400058: Box031
+    400060: Box032
+    400062: Box033
+    400064: Box034
+    400066: Box035
+    400068: Box036
+    400070: Box037
+    400072: Box038
+    400074: Box039
+    400076: Box040
+    400078: Box041
+    400080: Box042
+    400082: Box043
+    400084: Box044
+    400086: Box045
+    400088: Box046
+    400090: Box047
+    400092: Box048
+    400094: Box049
+    400096: Box050
+    400098: Box051
+    400100: Box052
+    400102: Box053
+    400104: Box054
+    400106: Box055
+    400108: Box056
+    400110: Box057
+    400112: dveri002
+    400114: dveri003
+    400116: dveri004
+    400118: Line003
+    400120: Loft001
+    400122: Loft002
+    400124: Object007
+    400126: Object008
+    400128: Object009
+    400130: Object010
+    400132: Object011
+    400134: Object012
+    400136: Object013
+    400138: Object014
+    400140: Object015
+    400142: Object016
+    400144: Object017
+    400146: Object018
+    400148: Object019
+    400150: Object020
+    400152: Object021
+    400154: Object022
+    400156: Object023
+    400158: Object024
+    400160: Object025
+    400162: Object031
+    400164: Object032
+    400166: Object033
+    400168: Object308
+    400170: Plane002
+    400172: Plane003
+    400174: Plane004
+    400176: Plane005
+    400178: Plane006
+    400180: Plane007
+    2100000: 5Mat
+    2100002: AvizstudioToolsATiles027Mat
+    2100004: AvizstudioToolsATiles028Mat
+    2100006: Box006Mat
+    2100008: Box007Mat
+    2100010: Box008Mat
+    2100012: Box009Mat
+    2100014: Box010Mat
+    2100016: Box011Mat
+    2100018: Box012Mat
+    2100020: Box013Mat
+    2100022: Box014Mat
+    2100024: Box015Mat
+    2100026: Box016Mat
+    2100028: Box017Mat
+    2100030: Box018Mat
+    2100032: Box019Mat
+    2100034: Box020Mat
+    2100036: Box021Mat
+    2100038: Box022Mat
+    2100040: Box023Mat
+    2100042: Box024Mat
+    2100044: Box025Mat
+    2100046: Box026Mat
+    2100048: Box027Mat
+    2100050: Box028Mat
+    2100052: Box029Mat
+    2100054: Box030Mat
+    2100056: Box031Mat
+    2100058: Box032Mat
+    2100060: Box033Mat
+    2100062: Box034Mat
+    2100064: Box035Mat
+    2100066: Box036Mat
+    2100068: Box037Mat
+    2100070: Box038Mat
+    2100072: Box039Mat
+    2100074: Box040Mat
+    2100076: Box041Mat
+    2100078: Box042Mat
+    2100080: Box043Mat
+    2100082: Box044Mat
+    2100084: Box045Mat
+    2100086: Box046Mat
+    2100088: Box047Mat
+    2100090: Box048Mat
+    2100092: Box049Mat
+    2100094: Box050Mat
+    2100096: Box051Mat
+    2100098: Box052Mat
+    2100100: Box053Mat
+    2100102: Box054Mat
+    2100104: Box055Mat
+    2100106: Box056Mat
+    2100108: Box057Mat
+    2100110: dveri002Mat
+    2100112: dveri003Mat
+    2100114: dveri004Mat
+    2100116: Line003Mat
+    2100118: Loft001Mat
+    2100120: Loft002Mat
+    2100122: Object007Mat
+    2100124: Object008Mat
+    2100126: Object009Mat
+    2100128: Object010Mat
+    2100130: Object011Mat
+    2100132: Object012Mat
+    2100134: Object013Mat
+    2100136: Object014Mat
+    2100138: Object015Mat
+    2100140: Object016Mat
+    2100142: Object017Mat
+    2100144: Object018Mat
+    2100146: Object019Mat
+    2100148: Object020Mat
+    2100150: Object021Mat
+    2100152: Object022Mat
+    2100154: Object023Mat
+    2100156: Object024Mat
+    2100158: Object025Mat
+    2100160: Object031Mat
+    2100162: Object032Mat
+    2100164: Object033Mat
+    2100166: Object308Mat
+    2100168: Plane002Mat
+    2100170: Plane003Mat
+    2100172: Plane004Mat
+    2100174: Plane005Mat
+    2100176: Plane006Mat
+    2100178: Plane007Mat
+    2300000: 5
+    2300002: AvizstudioToolsATiles027
+    2300004: AvizstudioToolsATiles028
+    2300006: Box006
+    2300008: Box007
+    2300010: Box008
+    2300012: Box009
+    2300014: Box010
+    2300016: Box011
+    2300018: Box012
+    2300020: Box013
+    2300022: Box014
+    2300024: Box015
+    2300026: Box016
+    2300028: Box017
+    2300030: Box018
+    2300032: Box019
+    2300034: Box020
+    2300036: Box021
+    2300038: Box022
+    2300040: Box023
+    2300042: Box024
+    2300044: Box025
+    2300046: Box026
+    2300048: Box027
+    2300050: Box028
+    2300052: Box029
+    2300054: Box030
+    2300056: Box031
+    2300058: Box032
+    2300060: Box033
+    2300062: Box034
+    2300064: Box035
+    2300066: Box036
+    2300068: Box037
+    2300070: Box038
+    2300072: Box039
+    2300074: Box040
+    2300076: Box041
+    2300078: Box042
+    2300080: Box043
+    2300082: Box044
+    2300084: Box045
+    2300086: Box046
+    2300088: Box047
+    2300090: Box048
+    2300092: Box049
+    2300094: Box050
+    2300096: Box051
+    2300098: Box052
+    2300100: Box053
+    2300102: Box054
+    2300104: Box055
+    2300106: Box056
+    2300108: Box057
+    2300110: dveri002
+    2300112: dveri003
+    2300114: dveri004
+    2300116: Line003
+    2300118: Loft001
+    2300120: Loft002
+    2300122: Object007
+    2300124: Object008
+    2300126: Object009
+    2300128: Object010
+    2300130: Object011
+    2300132: Object012
+    2300134: Object013
+    2300136: Object014
+    2300138: Object015
+    2300140: Object016
+    2300142: Object017
+    2300144: Object018
+    2300146: Object019
+    2300148: Object020
+    2300150: Object021
+    2300152: Object022
+    2300154: Object023
+    2300156: Object024
+    2300158: Object025
+    2300160: Object031
+    2300162: Object032
+    2300164: Object033
+    2300166: Object308
+    2300168: Plane002
+    2300170: Plane003
+    2300172: Plane004
+    2300174: Plane005
+    2300176: Plane006
+    2300178: Plane007
+    3300000: 5
+    3300002: AvizstudioToolsATiles027
+    3300004: AvizstudioToolsATiles028
+    3300006: Box006
+    3300008: Box007
+    3300010: Box008
+    3300012: Box009
+    3300014: Box010
+    3300016: Box011
+    3300018: Box012
+    3300020: Box013
+    3300022: Box014
+    3300024: Box015
+    3300026: Box016
+    3300028: Box017
+    3300030: Box018
+    3300032: Box019
+    3300034: Box020
+    3300036: Box021
+    3300038: Box022
+    3300040: Box023
+    3300042: Box024
+    3300044: Box025
+    3300046: Box026
+    3300048: Box027
+    3300050: Box028
+    3300052: Box029
+    3300054: Box030
+    3300056: Box031
+    3300058: Box032
+    3300060: Box033
+    3300062: Box034
+    3300064: Box035
+    3300066: Box036
+    3300068: Box037
+    3300070: Box038
+    3300072: Box039
+    3300074: Box040
+    3300076: Box041
+    3300078: Box042
+    3300080: Box043
+    3300082: Box044
+    3300084: Box045
+    3300086: Box046
+    3300088: Box047
+    3300090: Box048
+    3300092: Box049
+    3300094: Box050
+    3300096: Box051
+    3300098: Box052
+    3300100: Box053
+    3300102: Box054
+    3300104: Box055
+    3300106: Box056
+    3300108: Box057
+    3300110: dveri002
+    3300112: dveri003
+    3300114: dveri004
+    3300116: Line003
+    3300118: Loft001
+    3300120: Loft002
+    3300122: Object007
+    3300124: Object008
+    3300126: Object009
+    3300128: Object010
+    3300130: Object011
+    3300132: Object012
+    3300134: Object013
+    3300136: Object014
+    3300138: Object015
+    3300140: Object016
+    3300142: Object017
+    3300144: Object018
+    3300146: Object019
+    3300148: Object020
+    3300150: Object021
+    3300152: Object022
+    3300154: Object023
+    3300156: Object024
+    3300158: Object025
+    3300160: Object031
+    3300162: Object032
+    3300164: Object033
+    3300166: Object308
+    3300168: Plane002
+    3300170: Plane003
+    3300172: Plane004
+    3300174: Plane005
+    3300176: Plane006
+    3300178: Plane007
+    4300000: 5
+    4300002: AvizstudioToolsATiles027
+    4300004: AvizstudioToolsATiles028
+    4300006: Box006
+    4300008: Box007
+    4300010: Box008
+    4300012: Box009
+    4300014: Box010
+    4300016: Box011
+    4300018: Box012
+    4300020: Box013
+    4300022: Box014
+    4300024: Box015
+    4300026: Box016
+    4300028: Box017
+    4300030: Box018
+    4300032: Box019
+    4300034: Box020
+    4300036: Box021
+    4300038: Box022
+    4300040: Box023
+    4300042: Box024
+    4300044: Box025
+    4300046: Box026
+    4300048: Box027
+    4300050: Box028
+    4300052: Box029
+    4300054: Box030
+    4300056: Box031
+    4300058: Box032
+    4300060: Box033
+    4300062: Box034
+    4300064: Box035
+    4300066: Box036
+    4300068: Box037
+    4300070: Box038
+    4300072: Box039
+    4300074: Box040
+    4300076: Box041
+    4300078: Box042
+    4300080: Box043
+    4300082: Box044
+    4300084: Box045
+    4300086: Box046
+    4300088: Box047
+    4300090: Box048
+    4300092: Box049
+    4300094: Box050
+    4300096: Box051
+    4300098: Box052
+    4300100: Box053
+    4300102: Box054
+    4300104: Box055
+    4300106: Box056
+    4300108: Box057
+    4300110: dveri002
+    4300112: dveri003
+    4300114: dveri004
+    4300116: Line003
+    4300118: Loft001
+    4300120: Loft002
+    4300122: Object007
+    4300124: Object008
+    4300126: Object009
+    4300128: Object010
+    4300130: Object011
+    4300132: Object012
+    4300134: Object013
+    4300136: Object014
+    4300138: Object015
+    4300140: Object016
+    4300142: Object017
+    4300144: Object018
+    4300146: Object019
+    4300148: Object020
+    4300150: Object021
+    4300152: Object022
+    4300154: Object023
+    4300156: Object024
+    4300158: Object025
+    4300160: Object031
+    4300162: Object032
+    4300164: Object033
+    4300166: Object308
+    4300168: Plane002
+    4300170: Plane003
+    4300172: Plane004
+    4300174: Plane005
+    4300176: Plane006
+    4300178: Plane007
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5Mat
+    second: {fileID: 2100000, guid: eaf53a3cd6ffd284ea503c2756a86d93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AvizstudioToolsATiles027Mat
+    second: {fileID: 2100000, guid: 2336e4f98bf787346abe46457612de02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AvizstudioToolsATiles028Mat
+    second: {fileID: 2100000, guid: 70acdc8d61c5d1c4aaa2859ea96085b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box006Mat
+    second: {fileID: 2100000, guid: cb3734e1239bb764989685818a54b91d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box007Mat
+    second: {fileID: 2100000, guid: 116ca2b26bcf93646be00005fb29d59b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box008Mat
+    second: {fileID: 2100000, guid: 1f61a3d5ecbce8b479d88b5c57be1ff2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box009Mat
+    second: {fileID: 2100000, guid: 7bee9842ef9efbf4cab922ea6a56c5e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box010Mat
+    second: {fileID: 2100000, guid: 1d0d20814128b9242a9dff8bcce22fd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box011Mat
+    second: {fileID: 2100000, guid: 665c6b92017a9444892a7e397299b2d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box012Mat
+    second: {fileID: 2100000, guid: 703f439d5817b434e92a9604a4fe1ac3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box013Mat
+    second: {fileID: 2100000, guid: 45e84fcdf66fa51429e6b294af757933, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box014Mat
+    second: {fileID: 2100000, guid: 70de72af1f05da24daa39a5885e462ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box015Mat
+    second: {fileID: 2100000, guid: 81d3493e099aaf942a0917b08931a223, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box016Mat
+    second: {fileID: 2100000, guid: 4542446474c60a8408b69b14c6344f34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box017Mat
+    second: {fileID: 2100000, guid: ac96bc3c6c3600b449f11ae6a8983a42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box018Mat
+    second: {fileID: 2100000, guid: d3b73d848c60a40488d1b384b7430103, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box019Mat
+    second: {fileID: 2100000, guid: 7fd8e4aec64860446bbb927537f59a7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box020Mat
+    second: {fileID: 2100000, guid: ccfeb3d52f11551409358a8b111d25ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box021Mat
+    second: {fileID: 2100000, guid: 92da5d0c22324ed47a37208a8561fb1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box022Mat
+    second: {fileID: 2100000, guid: d05bb241cac391643a2fd1baf20115df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box023Mat
+    second: {fileID: 2100000, guid: 0f4c086ee4e4b084491b4ca9cdfe9701, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box024Mat
+    second: {fileID: 2100000, guid: 053b02e01e7c81149b7bda8a127c71dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box025Mat
+    second: {fileID: 2100000, guid: c4430e201e4f00644848bea79b9944e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box026Mat
+    second: {fileID: 2100000, guid: 2b6e9f3b15eb0264b8ea4896f5ada69c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box027Mat
+    second: {fileID: 2100000, guid: 8275ac280068c374ba4e154380182f28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box028Mat
+    second: {fileID: 2100000, guid: efc941aeee93cee41928cb5a0a997e5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box029Mat
+    second: {fileID: 2100000, guid: 9caebe60bdc30d841a347b242854d5df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box030Mat
+    second: {fileID: 2100000, guid: 3b3410f0291a32241b698ec5c359d980, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box031Mat
+    second: {fileID: 2100000, guid: d6d8aecc37a8ecc4fa65da3e9cab8331, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box032Mat
+    second: {fileID: 2100000, guid: 3128921bac057bf469d60a0aa001003d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box033Mat
+    second: {fileID: 2100000, guid: 7766b42cda05dd241922522104ac310e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box034Mat
+    second: {fileID: 2100000, guid: 31de36f0888b4e44e91c076285283622, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box035Mat
+    second: {fileID: 2100000, guid: c6d79119408a71b49a746da1d0a776d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box036Mat
+    second: {fileID: 2100000, guid: 6a642a86ccfb25847bd99a101df9df34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box037Mat
+    second: {fileID: 2100000, guid: c93b507b29f99b146b8b336829e319e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box038Mat
+    second: {fileID: 2100000, guid: 984d25c23b5fd1943886e84a9597ba13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box039Mat
+    second: {fileID: 2100000, guid: 942fbcad3d0bb29428569ad34bdecdd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box040Mat
+    second: {fileID: 2100000, guid: da4547ea1ae398b4b84666cfbe5139dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box041Mat
+    second: {fileID: 2100000, guid: 576a6c0c7da768c458ebb7b34ac2aa57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box042Mat
+    second: {fileID: 2100000, guid: 052f21ddb5b8d7846afdede9bcf3c412, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box043Mat
+    second: {fileID: 2100000, guid: 9f8d509ec946d0347a1dd88c2cc048a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box044Mat
+    second: {fileID: 2100000, guid: 5917f865546c5a64bbb2e0662d0650c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box045Mat
+    second: {fileID: 2100000, guid: 4fa80e86bbf24a2459e7011f924f4fc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box046Mat
+    second: {fileID: 2100000, guid: 8f61071fc97a65d4fa79c355a90e6099, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box047Mat
+    second: {fileID: 2100000, guid: 85f05efa7ed7ebe42a24363d961f97b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box048Mat
+    second: {fileID: 2100000, guid: 7ae40a8894e547042bb0d7958f0f9b4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box049Mat
+    second: {fileID: 2100000, guid: 476e62ca2eb5880439caf8e6dcd59b0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box050Mat
+    second: {fileID: 2100000, guid: 68363b6464e2ab7499777b30bb35698e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box051Mat
+    second: {fileID: 2100000, guid: 0177f4fa85b1ff143a403b728014c963, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box052Mat
+    second: {fileID: 2100000, guid: 8701c055a8366354a8aed3bd6973fb90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box053Mat
+    second: {fileID: 2100000, guid: 25246d904296c6a4884631142972ca22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box054Mat
+    second: {fileID: 2100000, guid: 288f0711b405f3744a63a5a147a8c581, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box055Mat
+    second: {fileID: 2100000, guid: d7c1e95f9bf48af43b9cf14a5e6b2052, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box056Mat
+    second: {fileID: 2100000, guid: aa1f577c58ed6e24aa02a40bd4f39d5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box057Mat
+    second: {fileID: 2100000, guid: ac37d7b1064fc9e4382dea92eeba0c26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line003Mat
+    second: {fileID: 2100000, guid: bd2de66b464901747831540b741d9682, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Loft001Mat
+    second: {fileID: 2100000, guid: 575586f2d52e3c448a31b25487eef165, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Loft002Mat
+    second: {fileID: 2100000, guid: 4ab85854e9a11cf4cafa8aa0a067d2fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object007Mat
+    second: {fileID: 2100000, guid: 19acbcd5662117246b7b7fc7e2984340, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object008Mat
+    second: {fileID: 2100000, guid: b8c4973cd0a0c0b4cb0cdafdf9a741ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object009Mat
+    second: {fileID: 2100000, guid: c0fa29c6033ae084ebf80b98a174ae85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object010Mat
+    second: {fileID: 2100000, guid: f886928bd4be8bb4ea317bdb95e085d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object011Mat
+    second: {fileID: 2100000, guid: a6d22145ac3fc4547884788caf5f0ce6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object012Mat
+    second: {fileID: 2100000, guid: 903962c778ab8754ea104a0efa456e64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object013Mat
+    second: {fileID: 2100000, guid: b451e83f16085734aa6897ec4950629a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object014Mat
+    second: {fileID: 2100000, guid: cb10e4917ee6b4f41a105a48e8348f5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object015Mat
+    second: {fileID: 2100000, guid: 7a5bd7d26296202488999ecc9eccdcb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object016Mat
+    second: {fileID: 2100000, guid: cc3b05001a587a84087e0f67721778ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object017Mat
+    second: {fileID: 2100000, guid: c4b994e4a8929654fb015da04b5bdae5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object018Mat
+    second: {fileID: 2100000, guid: 94c63c5eb3accff43ba5a38bb960c4c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object019Mat
+    second: {fileID: 2100000, guid: 658589415c464e440ba193e732808e40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object020Mat
+    second: {fileID: 2100000, guid: 90d83d4871b0ec1478eb2f765b83bc50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object021Mat
+    second: {fileID: 2100000, guid: be106963598565342a730400820cebfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object022Mat
+    second: {fileID: 2100000, guid: 77dc5bd00efe60c4da5d508c32399e27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object023Mat
+    second: {fileID: 2100000, guid: 313165107e301dd4ca4aa58fbfadddb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object024Mat
+    second: {fileID: 2100000, guid: 32e79ba9912a7e745a1180ad31bcda25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object025Mat
+    second: {fileID: 2100000, guid: ef922caf94bed3d4aaa029d6b7219332, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object031Mat
+    second: {fileID: 2100000, guid: 2f2b8c9a82d10b444af3f9ce1f896e16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object032Mat
+    second: {fileID: 2100000, guid: 99cda4585e6b9754a91058924fb6991f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object033Mat
+    second: {fileID: 2100000, guid: 7489a98d8b1650a4bb4f188a03d437ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object308Mat
+    second: {fileID: 2100000, guid: 9e7e029583ab2ed419c0658a7b45bd00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane002Mat
+    second: {fileID: 2100000, guid: cf0420e170da28f43a0659248c3fb2c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane003Mat
+    second: {fileID: 2100000, guid: 65ae51503ebfa0c49b30b4f6d8320733, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane004Mat
+    second: {fileID: 2100000, guid: bc37e3c821e73724c85a771a0c973c9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane005Mat
+    second: {fileID: 2100000, guid: 2405381373d8b1541b73023d8a0b7c62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane006Mat
+    second: {fileID: 2100000, guid: 5f1931682b2a7b446891869640b50053, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane007Mat
+    second: {fileID: 2100000, guid: f9dfaa2e5f005b94fb19be227f5b44e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dveri002Mat
+    second: {fileID: 2100000, guid: 840d5a156f28bc248a6a5f788f9e1bc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dveri003Mat
+    second: {fileID: 2100000, guid: e0b53144cd27c0945b0505befc722491, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dveri004Mat
+    second: {fileID: 2100000, guid: 55b397340e1dbe84bba01455cdced37c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

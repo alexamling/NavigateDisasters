@@ -1,0 +1,1926 @@
+Export time: 2018/07/23 16:43:45 EDT
+Export duration: 36.558s
+
+Export settings:
+	Export Geometry: Models with Shape Fallback
+	Output Path: D:\ProjectLilyPad\Assets\Models\Landmarks_new
+	Simplify Terrain Meshes: true
+	Terrain Layers: Export all selected terrain layers
+	applicationName: CityEngine
+	applicationString: CityEngine 2018.0.3929 0503R
+	applicationVendor: Esri R&D Center Zurich Inc.
+	applicationVersion: 2018.0.3929 05031749
+	atlasAddWrapBorder: true
+	author: IGMAdmin
+	baseName: Landmarks_model
+	collectTextures: true
+	createTextureAtlases: false
+	encoderID: com.esri.prt.codecs.OBJEncoder
+	encoderName: Wavefront OBJ
+	errorFallback: true
+	existingFiles: OVERWRITE
+	facesWithHoles: TRIANGULATE_FACES_WITH_HOLES
+	fileGranularity: START_SHAPE
+	globalOffset: [ -303455.51904296875, -14.671136856079102, 3261587.522491455 ]
+	includeMaterials: true
+	localOffset: NONE
+	maxAtlasDim: 11
+	memoryBudget: 500
+	mergeNormals: true
+	mergeTexcoords: true
+	mergeVertices: true
+	meshGranularity: PER_MATERIAL
+	normalPrecision: 0.001
+	sceneFile: /Dickinson_Model/scenes/Scene_8(WIth_Roofs)_.cej
+	script: 
+	shapeNameDelimiter: _
+	texcoordPrecision: 1.0E-4
+	textureCoordinates: FIRST
+	triangulateMeshes: false
+	vertexNormals: PASS
+	vertexPrecision: 0.001
+	writeLog: true
+
+There were errors recorded when generating the shapes.
+Initial shapes:
+	  0 :   OK                'Shape'                 OID '874e10a2-2055-11b2-994b-00bc12fe5418'
+		CGA Warnings:
+			[Method: 'Default$Roof$RoofFlatEdge'] offset(): offsetPolygons failed (polygon is complex).
+			[Method: 'Default$Roof$RoofFlatEdge'] offset(): Rule 'Default$Roof$RoofFlatEdge()V': offset failed.
+	  1 :   ERROR             'Shape_1'               OID '76ca414e-3216-11b2-b004-00bc12fe5418'
+		Generate errors:
+			Internal error: unspecified error: OBJEncoder::encode failed, exception caught: 'no valid meshes remain in geometry after cleanup'
+			Internal error: unspecified error: prt::generate failed, exception caught: 'no valid meshes remain in geometry after cleanup'
+	  2 :   OK                'Shape_2'               OID '76d2cf4d-3216-11b2-b004-00bc12fe5418'
+	  3 :   OK                'Shape_3'               OID '76db3786-3216-11b2-b004-00bc12fe5418'
+	  4 :   OK                'Shape_4'               OID '76e395be-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	  5 :   OK                'Shape_5'               OID '76ec8e68-3216-11b2-b004-00bc12fe5418'
+	  6 :   OK                'Shape_6'               OID '76f50df5-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	  7 :   OK                'Shape_7'               OID '76fd40d8-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	  8 :   OK                'Shape_8'               OID '7705aa2d-3216-11b2-b004-00bc12fe5418'
+	  9 :   OK                'Shape_9'               OID '770dcc65-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 10 :   OK                'Shape_10'              OID '771617ba-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 11 :   OK                'Shape_11'              OID '771e3581-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 12 :   ERROR             'Shape_12'              OID '7726790e-3216-11b2-b004-00bc12fe5418'
+		Generate errors:
+			Internal error: unspecified error: OBJEncoder::encode failed, exception caught: 'no valid meshes remain in geometry after cleanup'
+			Internal error: unspecified error: prt::generate failed, exception caught: 'no valid meshes remain in geometry after cleanup'
+	 13 :   ERROR             'Shape_13'              OID '772ea9b8-3216-11b2-b004-00bc12fe5418'
+		Generate errors:
+			Internal error: unspecified error: OBJEncoder::encode failed, exception caught: 'no valid meshes remain in geometry after cleanup'
+			Internal error: unspecified error: prt::generate failed, exception caught: 'no valid meshes remain in geometry after cleanup'
+	 14 :   OK                'Shape_14'              OID '7736cf46-3216-11b2-b004-00bc12fe5418'
+	 15 :   OK                'Shape_15'              OID '773ef70c-3216-11b2-b004-00bc12fe5418'
+	 16 :   OK                'Shape_16'              OID '774cbed2-3216-11b2-b004-00bc12fe5418'
+	 17 :   OK                'Shape_17'              OID '7755c17c-3216-11b2-b004-00bc12fe5418'
+		CGA Warnings:
+			[Method: 'Default$Roof$RoofFlatEdge'] offset(): offsetPolygons failed (polygon is complex).
+			[Method: 'Default$Roof$RoofFlatEdge'] offset(): Rule 'Default$Roof$RoofFlatEdge()V': offset failed.
+	 18 :   OK                'Shape_18'              OID '775e7bee-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 19 :   OK                'Shape_19'              OID '7766adb4-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 20 :   OK                'Shape_20'              OID '776ef6d0-3216-11b2-b004-00bc12fe5418'
+	 21 :   OK                'Shape_21'              OID '77772896-3216-11b2-b004-00bc12fe5418'
+	 22 :   OK                'Shape_22'              OID '777fbd40-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 23 :   OK                'Shape_23'              OID '778e67b1-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 24 :   OK                'Shape_24'              OID '779e0693-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+		CGA Warnings:
+			[Method: 'Default$Roof$RoofFlatEdge'] offset(): offsetPolygons failed (polygon is complex).
+			[Method: 'Default$Roof$RoofFlatEdge'] offset(): Rule 'Default$Roof$RoofFlatEdge()V': offset failed.
+	 25 :   ERROR             'Shape_25'              OID '77acf821-3216-11b2-b004-00bc12fe5418'
+		Generate errors:
+			Internal error: unspecified error: OBJEncoder::encode failed, exception caught: 'no valid meshes remain in geometry after cleanup'
+			Internal error: unspecified error: prt::generate failed, exception caught: 'no valid meshes remain in geometry after cleanup'
+	 26 :   OK                'Shape_26'              OID '77bbc503-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 27 :   OK                'Shape_27'              OID '77caa81e-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 28 :   OK                'Shape_28'              OID '77d9ccc8-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 29 :   OK                'Shape_29'              OID '77e8f4c7-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 30 :   OK                'Shape_30'              OID '77f7f054-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 31 :   OK                'Shape_31'              OID '7806fda8-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 32 :   OK                'Shape_32'              OID '781682fc-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 33 :   OK                'Shape_33'              OID '78257a18-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 34 :   ERROR             'Shape_34'              OID '783459de-3216-11b2-b004-00bc12fe5418'
+		Generate errors:
+			Internal error: unspecified error: OBJEncoder::encode failed, exception caught: 'no valid meshes remain in geometry after cleanup'
+			Internal error: unspecified error: prt::generate failed, exception caught: 'no valid meshes remain in geometry after cleanup'
+	 35 :   OK                'Shape_35'              OID '78433887-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 36 :   OK                'Shape_36'              OID '78523886-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 37 :   OK                'Shape_37'              OID '78612c4c-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 38 :   OK                'Shape_38'              OID '786fa3a0-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 39 :   OK                'Shape_39'              OID '787f3766-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 40 :   OK                'Shape_40'              OID '788bdaf4-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+		CGA Warnings:
+			[Method: 'Default$Roof$RoofFlatEdge'] offset(): offsetPolygons failed (polygon is complex).
+			[Method: 'Default$Roof$RoofFlatEdge'] offset(): Rule 'Default$Roof$RoofFlatEdge()V': offset failed.
+	 41 :   OK                'Shape_41'              OID '789421d6-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+		CGA Warnings:
+			[Method: 'Default$Roof$RoofFlatEdge'] offset(): offsetPolygons failed (polygon is complex).
+			[Method: 'Default$Roof$RoofFlatEdge'] offset(): Rule 'Default$Roof$RoofFlatEdge()V': offset failed.
+	 42 :   OK                'Shape_42'              OID '789c60f2-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 43 :   OK                'Shape_43'              OID '78a4bbd5-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 44 :   OK                'Shape_44'              OID '78ad1c46-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 45 :   OK                'Shape_45'              OID '78bccab7-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 46 :   OK                'Shape_46'              OID '78cbb599-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 47 :   OK                'Shape_47'              OID '78dabe7c-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 48 :   OK                'Shape_48'              OID '78e9c87b-3216-11b2-b004-00bc12fe5418'
+	 49 :   OK                'Shape_49'              OID '78f8e441-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 50 :   OK                'Shape_50'              OID '79082040-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 51 :   OK                'Shape_51'              OID '7910a794-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 52 :   OK                'Shape_52'              OID '791f12b0-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+		CGA Warnings:
+			[Method: 'Default$BuildingSplit'] _$peekFloat(): SplitXYZ: leaf 1 has size 0.000651, too small, ignored
+			[Method: 'Default$Roof$RoofFlatEdge'] offset(): offsetPolygons failed (polygon is complex).
+			[Method: 'Default$Roof$RoofFlatEdge'] offset(): Rule 'Default$Roof$RoofFlatEdge()V': offset failed.
+	 53 :   OK                'Shape_53'              OID '792d24e8-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+		CGA Warnings:
+			[Method: 'Default$Roof$RoofFlatEdge'] offset(): offsetPolygons failed (polygon is complex).
+			[Method: 'Default$Roof$RoofFlatEdge'] offset(): Rule 'Default$Roof$RoofFlatEdge()V': offset failed.
+	 54 :   OK                'Shape_54'              OID '7938363c-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 55 :   OK                'Shape_55'              OID '79405403-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 56 :   OK                'Shape_56'              OID '794f7557-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 57 :   OK                'Shape_57'              OID '795a5a39-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 58 :   OK                'Shape_58'              OID '79628f55-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 59 :   OK                'Shape_59'              OID '796b21c6-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 60 :   OK                'Shape_60'              OID '7973451b-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 61 :   ERROR             'Shape_61'              OID '7981086f-3216-11b2-b004-00bc12fe5418'
+		Generate errors:
+			Internal error: unspecified error: OBJEncoder::encode failed, exception caught: 'no valid meshes remain in geometry after cleanup'
+			Internal error: unspecified error: prt::generate failed, exception caught: 'no valid meshes remain in geometry after cleanup'
+	 62 :   OK                'Shape_62'              OID '798e0952-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 63 :   OK                'Shape_63'              OID '799c6a6d-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 64 :   OK                'Shape_64'              OID '79ab4fc2-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 65 :   OK                'Shape_65'              OID '79ba29f9-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 66 :   OK                'Shape_66'              OID '79c9234e-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 67 :   OK                'Shape_67'              OID '79d80430-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 68 :   OK                'Shape_68'              OID '79e6f6da-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 69 :   ERROR             'Shape_69'              OID '79f5d6a0-3216-11b2-b004-00bc12fe5418'
+		Generate errors:
+			Internal error: unspecified error: OBJEncoder::encode failed, exception caught: 'no valid meshes remain in geometry after cleanup'
+			Internal error: unspecified error: prt::generate failed, exception caught: 'no valid meshes remain in geometry after cleanup'
+	 70 :   OK                'Shape_70'              OID '7a04c29f-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 71 :   OK                'Shape_71'              OID '7a13a49d-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 72 :   OK                'Shape_72'              OID '7a228463-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 73 :   OK                'Shape_73'              OID '7a314bb8-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 74 :   OK                'Shape_74'              OID '7a402828-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 75 :   OK                'Shape_75'              OID '7a4f0499-3216-11b2-b004-00bc12fe5418'
+	 76 :   OK                'Shape_76'              OID '7a5e1d0a-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 77 :   ERROR             'Shape_77'              OID '7a6eee97-3216-11b2-b004-00bc12fe5418'
+		Generate errors:
+			Internal error: unspecified error: OBJEncoder::encode failed, exception caught: 'no valid meshes remain in geometry after cleanup'
+			Internal error: unspecified error: prt::generate failed, exception caught: 'no valid meshes remain in geometry after cleanup'
+	 78 :   OK                'Shape_78'              OID '7a7df779-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 79 :   OK                'Shape_79'              OID '7a8cea23-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 80 :   OK                'Shape_80'              OID '7a9be13e-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 81 :   OK                'Shape_81'              OID '7aaada92-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 82 :   OK                'Shape_82'              OID '7ab9dcca-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 83 :   OK                'Shape_83'              OID '7ac9081e-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 84 :   OK                'Shape_84'              OID '7ad7ed72-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 85 :   OK                'Shape_85'              OID '7ae7a938-3216-11b2-b004-00bc12fe5418'
+	 86 :   OK                'Shape_86'              OID '7af69537-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 87 :   OK                'Shape_87'              OID '7b058e8b-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 88 :   OK                'Shape_88'              OID '7b1525a7-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 89 :   OK                'Shape_89'              OID '7b243f34-3216-11b2-b004-00bc12fe5418'
+	 90 :   OK                'Shape_90'              OID '7b3331dd-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 91 :   OK                'Shape_91'              OID '7b420f6a-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 92 :   OK                'Shape_92'              OID '7b4f7214-3216-11b2-b004-00bc12fe5418'
+	 93 :   OK                'Shape_93'              OID '7b57a969-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 94 :   OK                'Shape_94'              OID '7b62f8f6-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 95 :   OK                'Shape_95'              OID '7b71e612-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 96 :   OK                'Shape_96'              OID '7b81def4-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 97 :   OK                'Shape_97'              OID '7b910eba-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 98 :   OK                'Shape_98'              OID '7b9d4af2-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	 99 :   OK                'Shape_99'              OID '7bac4d2a-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	100 :   OK                'Shape_100'             OID '7bbb287e-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	101 :   OK                'Shape_101'             OID '7bc9f9d2-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	102 :   OK                'Shape_102'             OID '7bd8df26-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	103 :   OK                'Shape_103'             OID '7be7b609-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	104 :   OK                'Shape_104'             OID '7bf6875d-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	105 :   OK                'Shape_105'             OID '7c0531ce-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	106 :   OK                'Shape_106'             OID '7c100a78-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	107 :   OK                'Shape_107'             OID '7c18643e-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	108 :   OK                'Shape_108'             OID '7c207805-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	109 :   OK                'Shape_109'             OID '7c2d2475-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	110 :   OK                'Shape_110'             OID '7c390003-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	111 :   OK                'Shape_111'             OID '7c414157-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	112 :   OK                'Shape_112'             OID '7c4ff801-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	113 :   OK                'Shape_113'             OID '7c5ed355-3216-11b2-b004-00bc12fe5418'
+	114 :   OK                'Shape_114'             OID '7c6ddf8d-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	115 :   OK                'Shape_115'             OID '7c7b9c37-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	116 :   OK                'Shape_116'             OID '7c897d8b-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	117 :   OK                'Shape_117'             OID '7c95a035-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	118 :   OK                'Shape_118'             OID '7c9df350-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	119 :   OK                'Shape_119'             OID '7ca604de-3216-11b2-b004-00bc12fe5418'
+	120 :   OK                'Shape_120'             OID '7cb2ef88-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	121 :   OK                'Shape_121'             OID '7cc153f9-3216-11b2-b004-00bc12fe5418'
+	122 :   OK                'Shape_122'             OID '7ccbd94d-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	123 :   OK                'Shape_123'             OID '7cd3eadb-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	124 :   OK                'Shape_124'             OID '7cde2268-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	125 :   OK                'Shape_125'             OID '7ced06a0-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	126 :   OK                'Shape_126'             OID '7cfb8c66-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	127 :   OK                'Shape_127'             OID '7d05f065-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	128 :   OK                'Shape_128'             OID '7d0fb9f3-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	129 :   OK                'Shape_129'             OID '7d185f47-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	130 :   OK                'Shape_130'             OID '7d2067f1-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	131 :   OK                'Shape_131'             OID '7d287bb8-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	132 :   OK                'Shape_132'             OID '7d319029-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	133 :   OK                'Shape_133'             OID '7d399f7e-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	134 :   OK                'Shape_134'             OID '7d4bfed2-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	135 :   OK                'Shape_135'             OID '7d563ad1-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	136 :   OK                'Shape_136'             OID '7d60e826-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	137 :   OK                'Shape_137'             OID '7d6a3897-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	138 :   OK                'Shape_138'             OID '7d76705d-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	139 :   OK                'Shape_139'             OID '7d8151ea-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	140 :   OK                'Shape_140'             OID '7d89adea-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	141 :   OK                'Shape_141'             OID '7d9227e9-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	142 :   OK                'Shape_142'             OID '7d9a7577-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	143 :   OK                'Shape_143'             OID '7da2bc59-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	144 :   OK                'Shape_144'             OID '7daaac92-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	145 :   OK                'Shape_145'             OID '7db2b53c-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	146 :   OK                'Shape_146'             OID '7dbc9bad-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	147 :   OK                'Shape_147'             OID '7dc58ec9-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	148 :   OK                'Shape_148'             OID '7dcf3fe4-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	149 :   OK                'Shape_149'             OID '7dd88ac7-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	150 :   OK                'Shape_150'             OID '7de3be8e-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	151 :   OK                'Shape_151'             OID '7debd7e2-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	152 :   OK                'Shape_152'             OID '7dfa21a8-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	153 :   OK                'Shape_153'             OID '7e094cfd-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	154 :   OK                'Shape_154'             OID '7e1842fb-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	155 :   OK                'Shape_155'             OID '7e26ec50-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	156 :   OK                'Shape_156'             OID '7e358ddd-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	157 :   OK                'Shape_157'             OID '7e3fc331-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	158 :   OK                'Shape_158'             OID '7e47cbdb-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	159 :   OK                'Shape_159'             OID '7e4fc84d-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	160 :   OK                'Shape_160'             OID '7e57bf30-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	161 :   OK                'Shape_161'             OID '7e5fc24b-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	162 :   OK                'Shape_162'             OID '7e6824f5-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	163 :   OK                'Shape_163'             OID '7e722b9f-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	164 :   OK                'Shape_164'             OID '7e7e0dd7-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	165 :   OK                'Shape_165'             OID '7e8849d7-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	166 :   OK                'Shape_166'             OID '7e90440f-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	167 :   OK                'Shape_167'             OID '7e988af2-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	168 :   OK                'Shape_168'             OID '7ea0cc47-3216-11b2-b004-00bc12fe5418'
+	169 :   OK                'Shape_169'             OID '7eace60d-3216-11b2-b004-00bc12fe5418'
+	170 :   OK                'Shape_170'             OID '7ebc2561-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	171 :   OK                'Shape_171'             OID '7ecacfd2-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	172 :   OK                'Shape_172'             OID '7ed96ced-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	173 :   OK                'Shape_173'             OID '7ee7507a-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	174 :   OK                'Shape_174'             OID '7ef032eb-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	175 :   OK                'Shape_175'             OID '7ef833ce-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	176 :   OK                'Shape_176'             OID '7f002e07-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	177 :   OK                'Shape_177'             OID '7f08155b-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	178 :   OK                'Shape_178'             OID '7f103f5b-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	179 :   OK                'Shape_179'             OID '7f182477-3216-11b2-b004-00bc12fe5418'
+		CGA Errors:
+			[Method: 'Default$BuildingMultipatch'] cleanupGeometry(): Whole geometry deleted, ignoring operation (keeping original geometry).
+	180 :   OK                'Shape'                 OID 'fc92b207-3253-11b2-b004-00bc12fe5418'
+
+Assets with errors/warnings/infos:
+	<initial shape geometry>:
+		Warning: Geometry ' (mesh: Shape_4)' contained: 1 0-angles (removed); 
+		Warning: Geometry ' (mesh: Shape)' contained: 4 0-length edges (removed); 9 0-angles (removed); 
+		Warning: Geometry ' (mesh: Shape_5)' contained: 1 0-angles (removed); 
+		Warning: Geometry ' (mesh: Shape_15)' contained: 1 0-length edges (removed); 1 0-angles (removed); 
+	rules/BuildingsBETA/BuildingShell_with_Detail_MOD_FOSS_UC.cgb:
+		Warning: Potentially problematic CGAC version 1.5 : recompiling with current CGA Compiler (1.10) is recommended.
+
+
+Files created:
+	'Landmarks_model_Shape.obj':
+		Initial shapes:
+			0, 
+		GEOMETRY:
+			Total Meshes: 8
+			Total Polygons: 19570
+			  | Name                      | Material             | Polygons 
+			==+===========================+======================+==========
+			1  'mesh_CityEngineMaterial'   'CityEngineMaterial_3'     14389 
+			2  'mesh_CityEngineMaterial_1' 'CityEngineMaterial_2'        86 
+			3  'mesh_CityEngineMaterial_2' 'CityEngineMaterial_6'      3250 
+			4  'mesh_CityEngineMaterial_3' 'CityEngineMaterial_4'        72 
+			5  'mesh_CityEngineMaterial_4' 'CityEngineMaterial_5'        30 
+			6  'mesh_CityEngineMaterial_5' 'CityEngineMaterial_1'       114 
+			7  'mesh_CityEngineMaterial_6' 'CityEngineMaterial'           8 
+			8  'mesh_CityEngineMaterial_7' 'CityEngineMaterial_7'      1621 
+	'Landmarks_model_Shape_3.obj':
+		Initial shapes:
+			3, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                      | Material             | Polygons 
+			==+===========================+======================+==========
+			1  'mesh_CityEngineMaterial_8' 'CityEngineMaterial_8'         2 
+	'Landmarks_model_Shape_4.obj':
+		Initial shapes:
+			4, 
+		GEOMETRY:
+			Total Meshes: 0
+			Total Polygons: 0
+			  | Name | Material | Polygons 
+			==+======+==========+==========
+	'Landmarks_model_Shape_5.obj':
+		Initial shapes:
+			5, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_10' 'CityEngineMaterial_10'         2 
+	'Landmarks_model_Shape_7.obj':
+		Initial shapes:
+			7, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_11' 'CityEngineMaterial_1'         1 
+	'Landmarks_model_Shape_8.obj':
+		Initial shapes:
+			8, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_12' 'CityEngineMaterial_11'         1 
+	'Landmarks_model_Shape_14.obj':
+		Initial shapes:
+			14, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_13' 'CityEngineMaterial_12'         2 
+	'Landmarks_model_Shape_15.obj':
+		Initial shapes:
+			15, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_14' 'CityEngineMaterial_13'         1 
+	'Landmarks_model_Shape_17.obj':
+		Initial shapes:
+			17, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_15' 'CityEngineMaterial_1'         1 
+	'Landmarks_model_Shape_18.obj':
+		Initial shapes:
+			18, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_16' 'CityEngineMaterial_14'         1 
+	'Landmarks_model_Shape_20.obj':
+		Initial shapes:
+			20, 
+		GEOMETRY:
+			Total Meshes: 2
+			Total Polygons: 3
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_17' 'CityEngineMaterial_15'         1 
+			2  'mesh_CityEngineMaterial_18' 'CityEngineMaterial_10'         2 
+	'Landmarks_model_Shape_21.obj':
+		Initial shapes:
+			21, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_19' 'CityEngineMaterial_16'         2 
+	'Landmarks_model_Shape_22.obj':
+		Initial shapes:
+			22, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_20' 'CityEngineMaterial_17'         1 
+	'Landmarks_model_Shape_24.obj':
+		Initial shapes:
+			24, 
+		GEOMETRY:
+			Total Meshes: 2
+			Total Polygons: 2
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_21' 'CityEngineMaterial_1'         1 
+			2  'mesh_CityEngineMaterial_22' 'CityEngineMaterial_8'         1 
+	'Landmarks_model_Shape_27.obj':
+		Initial shapes:
+			27, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_23' 'CityEngineMaterial_1'         2 
+	'Landmarks_model_Shape_30.obj':
+		Initial shapes:
+			30, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 3
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_24' 'CityEngineMaterial_1'         3 
+	'Landmarks_model_Shape_31.obj':
+		Initial shapes:
+			31, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 6
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_25' 'CityEngineMaterial_1'         6 
+	'Landmarks_model_Shape_32.obj':
+		Initial shapes:
+			32, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_26' 'CityEngineMaterial_18'         1 
+	'Landmarks_model_Shape_33.obj':
+		Initial shapes:
+			33, 
+		GEOMETRY:
+			Total Meshes: 2
+			Total Polygons: 3
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_27' 'CityEngineMaterial_19'         1 
+			2  'mesh_CityEngineMaterial_28' 'CityEngineMaterial_20'         2 
+	'Landmarks_model_Shape_36.obj':
+		Initial shapes:
+			36, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_29' 'CityEngineMaterial_21'         1 
+	'Landmarks_model_Shape_37.obj':
+		Initial shapes:
+			37, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_30' 'CityEngineMaterial_22'         1 
+	'Landmarks_model_Shape_38.obj':
+		Initial shapes:
+			38, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 3
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_31' 'CityEngineMaterial_1'         3 
+	'Landmarks_model_Shape_40.obj':
+		Initial shapes:
+			40, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_32' 'CityEngineMaterial_1'         1 
+	'Landmarks_model_Shape_41.obj':
+		Initial shapes:
+			41, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_33' 'CityEngineMaterial_1'         1 
+	'Landmarks_model_Shape_42.obj':
+		Initial shapes:
+			42, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_34' 'CityEngineMaterial_1'         1 
+	'Landmarks_model_Shape_45.obj':
+		Initial shapes:
+			45, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_35' 'CityEngineMaterial_1'         2 
+	'Landmarks_model_Shape_47.obj':
+		Initial shapes:
+			47, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 4
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_36' 'CityEngineMaterial_1'         4 
+	'Landmarks_model_Shape_50.obj':
+		Initial shapes:
+			50, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material           | Polygons 
+			==+============================+====================+==========
+			1  'mesh_CityEngineMaterial_37' 'CityEngineMaterial'         1 
+	'Landmarks_model_Shape_51.obj':
+		Initial shapes:
+			51, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_38' 'CityEngineMaterial_22'         1 
+	'Landmarks_model_Shape_52.obj':
+		Initial shapes:
+			52, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_39' 'CityEngineMaterial_1'         1 
+	'Landmarks_model_Shape_53.obj':
+		Initial shapes:
+			53, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_40' 'CityEngineMaterial_1'         1 
+	'Landmarks_model_Shape_56.obj':
+		Initial shapes:
+			56, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_41' 'CityEngineMaterial_1'         1 
+	'Landmarks_model_Shape_57.obj':
+		Initial shapes:
+			57, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_42' 'CityEngineMaterial_23'         1 
+	'Landmarks_model_Shape_58.obj':
+		Initial shapes:
+			58, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_43' 'CityEngineMaterial_1'         1 
+	'Landmarks_model_Shape_59.obj':
+		Initial shapes:
+			59, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_44' 'CityEngineMaterial_1'         1 
+	'Landmarks_model_Shape_60.obj':
+		Initial shapes:
+			60, 
+		GEOMETRY:
+			Total Meshes: 0
+			Total Polygons: 0
+			  | Name | Material | Polygons 
+			==+======+==========+==========
+	'Landmarks_model_Shape_63.obj':
+		Initial shapes:
+			63, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 3
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_46' 'CityEngineMaterial_1'         3 
+	'Landmarks_model_Shape_64.obj':
+		Initial shapes:
+			64, 
+		GEOMETRY:
+			Total Meshes: 2
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_47' 'CityEngineMaterial_24'         1 
+			2  'mesh_CityEngineMaterial_48' 'CityEngineMaterial_25'         1 
+	'Landmarks_model_Shape_67.obj':
+		Initial shapes:
+			67, 
+		GEOMETRY:
+			Total Meshes: 0
+			Total Polygons: 0
+			  | Name | Material | Polygons 
+			==+======+==========+==========
+	'Landmarks_model_Shape_71.obj':
+		Initial shapes:
+			71, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_50' 'CityEngineMaterial_26'         2 
+	'Landmarks_model_Shape_72.obj':
+		Initial shapes:
+			72, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 3
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_51' 'CityEngineMaterial_1'         3 
+	'Landmarks_model_Shape_75.obj':
+		Initial shapes:
+			75, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 5
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_52' 'CityEngineMaterial_1'         5 
+	'Landmarks_model_Shape_76.obj':
+		Initial shapes:
+			76, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_53' 'CityEngineMaterial_1'         2 
+	'Landmarks_model_Shape_79.obj':
+		Initial shapes:
+			79, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_54' 'CityEngineMaterial_19'         1 
+	'Landmarks_model_Shape_81.obj':
+		Initial shapes:
+			81, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 3
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_55' 'CityEngineMaterial_1'         3 
+	'Landmarks_model_Shape_82.obj':
+		Initial shapes:
+			82, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_56' 'CityEngineMaterial_13'         2 
+	'Landmarks_model_Shape_83.obj':
+		Initial shapes:
+			83, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_57' 'CityEngineMaterial_27'         2 
+	'Landmarks_model_Shape_84.obj':
+		Initial shapes:
+			84, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_58' 'CityEngineMaterial_28'         2 
+	'Landmarks_model_Shape_85.obj':
+		Initial shapes:
+			85, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_59' 'CityEngineMaterial_12'         1 
+	'Landmarks_model_Shape_86.obj':
+		Initial shapes:
+			86, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_60' 'CityEngineMaterial_17'         2 
+	'Landmarks_model_Shape_87.obj':
+		Initial shapes:
+			87, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_61' 'CityEngineMaterial_11'         2 
+	'Landmarks_model_Shape_88.obj':
+		Initial shapes:
+			88, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_62' 'CityEngineMaterial_26'         2 
+	'Landmarks_model_Shape_89.obj':
+		Initial shapes:
+			89, 
+		GEOMETRY:
+			Total Meshes: 0
+			Total Polygons: 0
+			  | Name | Material | Polygons 
+			==+======+==========+==========
+	'Landmarks_model_Shape_90.obj':
+		Initial shapes:
+			90, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_64' 'CityEngineMaterial_13'         2 
+	'Landmarks_model_Shape_91.obj':
+		Initial shapes:
+			91, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_65' 'CityEngineMaterial_8'         2 
+	'Landmarks_model_Shape_92.obj':
+		Initial shapes:
+			92, 
+		GEOMETRY:
+			Total Meshes: 0
+			Total Polygons: 0
+			  | Name | Material | Polygons 
+			==+======+==========+==========
+	'Landmarks_model_Shape_93.obj':
+		Initial shapes:
+			93, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_67' 'CityEngineMaterial_25'         2 
+	'Landmarks_model_Shape_94.obj':
+		Initial shapes:
+			94, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_68' 'CityEngineMaterial_23'         2 
+	'Landmarks_model_Shape_95.obj':
+		Initial shapes:
+			95, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_69' 'CityEngineMaterial_12'         2 
+	'Landmarks_model_Shape_96.obj':
+		Initial shapes:
+			96, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_70' 'CityEngineMaterial_11'         2 
+	'Landmarks_model_Shape_97.obj':
+		Initial shapes:
+			97, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_71' 'CityEngineMaterial_26'         2 
+	'Landmarks_model_Shape_98.obj':
+		Initial shapes:
+			98, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_72' 'CityEngineMaterial_20'         1 
+	'Landmarks_model_Shape_99.obj':
+		Initial shapes:
+			99, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_73' 'CityEngineMaterial_11'         2 
+	'Landmarks_model_Shape_100.obj':
+		Initial shapes:
+			100, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_74' 'CityEngineMaterial_25'         2 
+	'Landmarks_model_Shape_101.obj':
+		Initial shapes:
+			101, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_75' 'CityEngineMaterial_25'         2 
+	'Landmarks_model_Shape_102.obj':
+		Initial shapes:
+			102, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_76' 'CityEngineMaterial_17'         2 
+	'Landmarks_model_Shape_103.obj':
+		Initial shapes:
+			103, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_77' 'CityEngineMaterial_18'         2 
+	'Landmarks_model_Shape_104.obj':
+		Initial shapes:
+			104, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_78' 'CityEngineMaterial_16'         2 
+	'Landmarks_model_Shape_105.obj':
+		Initial shapes:
+			105, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_79' 'CityEngineMaterial_8'         2 
+	'Landmarks_model_Shape_106.obj':
+		Initial shapes:
+			106, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_80' 'CityEngineMaterial_27'         2 
+	'Landmarks_model_Shape_107.obj':
+		Initial shapes:
+			107, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_81' 'CityEngineMaterial_18'         2 
+	'Landmarks_model_Shape_108.obj':
+		Initial shapes:
+			108, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_82' 'CityEngineMaterial_12'         2 
+	'Landmarks_model_Shape_109.obj':
+		Initial shapes:
+			109, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_83' 'CityEngineMaterial_16'         2 
+	'Landmarks_model_Shape_110.obj':
+		Initial shapes:
+			110, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_84' 'CityEngineMaterial_20'         2 
+	'Landmarks_model_Shape_111.obj':
+		Initial shapes:
+			111, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_85' 'CityEngineMaterial_18'         2 
+	'Landmarks_model_Shape_112.obj':
+		Initial shapes:
+			112, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_86' 'CityEngineMaterial_12'         2 
+	'Landmarks_model_Shape_113.obj':
+		Initial shapes:
+			113, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_87' 'CityEngineMaterial_13'         1 
+	'Landmarks_model_Shape_114.obj':
+		Initial shapes:
+			114, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_88' 'CityEngineMaterial_3'         2 
+	'Landmarks_model_Shape_115.obj':
+		Initial shapes:
+			115, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_89' 'CityEngineMaterial_26'         2 
+	'Landmarks_model_Shape_116.obj':
+		Initial shapes:
+			116, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_90' 'CityEngineMaterial_29'         2 
+	'Landmarks_model_Shape_117.obj':
+		Initial shapes:
+			117, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_91' 'CityEngineMaterial_20'         2 
+	'Landmarks_model_Shape_118.obj':
+		Initial shapes:
+			118, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_92' 'CityEngineMaterial_8'         2 
+	'Landmarks_model_Shape_119.obj':
+		Initial shapes:
+			119, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_93' 'CityEngineMaterial_23'         2 
+	'Landmarks_model_Shape_120.obj':
+		Initial shapes:
+			120, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_94' 'CityEngineMaterial_12'         2 
+	'Landmarks_model_Shape_121.obj':
+		Initial shapes:
+			121, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material             | Polygons 
+			==+============================+======================+==========
+			1  'mesh_CityEngineMaterial_95' 'CityEngineMaterial_9'         1 
+	'Landmarks_model_Shape_122.obj':
+		Initial shapes:
+			122, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_96' 'CityEngineMaterial_16'         2 
+	'Landmarks_model_Shape_123.obj':
+		Initial shapes:
+			123, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_97' 'CityEngineMaterial_27'         2 
+	'Landmarks_model_Shape_124.obj':
+		Initial shapes:
+			124, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_98' 'CityEngineMaterial_28'         2 
+	'Landmarks_model_Shape_125.obj':
+		Initial shapes:
+			125, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                       | Material              | Polygons 
+			==+============================+=======================+==========
+			1  'mesh_CityEngineMaterial_99' 'CityEngineMaterial_18'         1 
+	'Landmarks_model_Shape_126.obj':
+		Initial shapes:
+			126, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_100' 'CityEngineMaterial_10'         2 
+	'Landmarks_model_Shape_127.obj':
+		Initial shapes:
+			127, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_101' 'CityEngineMaterial_13'         2 
+	'Landmarks_model_Shape_128.obj':
+		Initial shapes:
+			128, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_102' 'CityEngineMaterial_29'         1 
+	'Landmarks_model_Shape_129.obj':
+		Initial shapes:
+			129, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_103' 'CityEngineMaterial_18'         1 
+	'Landmarks_model_Shape_130.obj':
+		Initial shapes:
+			130, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_104' 'CityEngineMaterial_18'         1 
+	'Landmarks_model_Shape_131.obj':
+		Initial shapes:
+			131, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_105' 'CityEngineMaterial_10'         2 
+	'Landmarks_model_Shape_132.obj':
+		Initial shapes:
+			132, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material             | Polygons 
+			==+=============================+======================+==========
+			1  'mesh_CityEngineMaterial_106' 'CityEngineMaterial_9'         1 
+	'Landmarks_model_Shape_133.obj':
+		Initial shapes:
+			133, 
+		GEOMETRY:
+			Total Meshes: 2
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_107' 'CityEngineMaterial_26'         1 
+			2  'mesh_CityEngineMaterial_108' 'CityEngineMaterial_21'         1 
+	'Landmarks_model_Shape_134.obj':
+		Initial shapes:
+			134, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_109' 'CityEngineMaterial_11'         1 
+	'Landmarks_model_Shape_135.obj':
+		Initial shapes:
+			135, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_110' 'CityEngineMaterial_18'         2 
+	'Landmarks_model_Shape_136.obj':
+		Initial shapes:
+			136, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_111' 'CityEngineMaterial_28'         2 
+	'Landmarks_model_Shape_137.obj':
+		Initial shapes:
+			137, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_112' 'CityEngineMaterial_26'         1 
+	'Landmarks_model_Shape_138.obj':
+		Initial shapes:
+			138, 
+		GEOMETRY:
+			Total Meshes: 2
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_113' 'CityEngineMaterial_15'         1 
+			2  'mesh_CityEngineMaterial_114' 'CityEngineMaterial_18'         1 
+	'Landmarks_model_Shape_139.obj':
+		Initial shapes:
+			139, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_115' 'CityEngineMaterial_13'         1 
+	'Landmarks_model_Shape_140.obj':
+		Initial shapes:
+			140, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_116' 'CityEngineMaterial_10'         2 
+	'Landmarks_model_Shape_141.obj':
+		Initial shapes:
+			141, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_117' 'CityEngineMaterial_25'         1 
+	'Landmarks_model_Shape_142.obj':
+		Initial shapes:
+			142, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_118' 'CityEngineMaterial_26'         2 
+	'Landmarks_model_Shape_143.obj':
+		Initial shapes:
+			143, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_119' 'CityEngineMaterial_22'         1 
+	'Landmarks_model_Shape_144.obj':
+		Initial shapes:
+			144, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material             | Polygons 
+			==+=============================+======================+==========
+			1  'mesh_CityEngineMaterial_120' 'CityEngineMaterial_8'         1 
+	'Landmarks_model_Shape_145.obj':
+		Initial shapes:
+			145, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_121' 'CityEngineMaterial_22'         1 
+	'Landmarks_model_Shape_146.obj':
+		Initial shapes:
+			146, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_122' 'CityEngineMaterial_23'         1 
+	'Landmarks_model_Shape_147.obj':
+		Initial shapes:
+			147, 
+		GEOMETRY:
+			Total Meshes: 2
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_123' 'CityEngineMaterial_15'         1 
+			2  'mesh_CityEngineMaterial_124' 'CityEngineMaterial_13'         1 
+	'Landmarks_model_Shape_148.obj':
+		Initial shapes:
+			148, 
+		GEOMETRY:
+			Total Meshes: 2
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_125' 'CityEngineMaterial_18'         1 
+			2  'mesh_CityEngineMaterial_126' 'CityEngineMaterial_30'         1 
+	'Landmarks_model_Shape_149.obj':
+		Initial shapes:
+			149, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material             | Polygons 
+			==+=============================+======================+==========
+			1  'mesh_CityEngineMaterial_127' 'CityEngineMaterial_9'         1 
+	'Landmarks_model_Shape_150.obj':
+		Initial shapes:
+			150, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_128' 'CityEngineMaterial_26'         1 
+	'Landmarks_model_Shape_151.obj':
+		Initial shapes:
+			151, 
+		GEOMETRY:
+			Total Meshes: 2
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_129' 'CityEngineMaterial_3'          1 
+			2  'mesh_CityEngineMaterial_130' 'CityEngineMaterial_14'         1 
+	'Landmarks_model_Shape_152.obj':
+		Initial shapes:
+			152, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_131' 'CityEngineMaterial_11'         2 
+	'Landmarks_model_Shape_153.obj':
+		Initial shapes:
+			153, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_132' 'CityEngineMaterial_28'         1 
+	'Landmarks_model_Shape_156.obj':
+		Initial shapes:
+			156, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_133' 'CityEngineMaterial_12'         1 
+	'Landmarks_model_Shape_157.obj':
+		Initial shapes:
+			157, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_134' 'CityEngineMaterial_17'         1 
+	'Landmarks_model_Shape_158.obj':
+		Initial shapes:
+			158, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_135' 'CityEngineMaterial_16'         2 
+	'Landmarks_model_Shape_159.obj':
+		Initial shapes:
+			159, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                        | Material             | Polygons 
+			==+=============================+======================+==========
+			1  'mesh_CityEngineMaterial_136' 'CityEngineMaterial_3'         2 
+	'Landmarks_model_Shape_160.obj':
+		Initial shapes:
+			160, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_137' 'CityEngineMaterial_25'         2 
+	'Landmarks_model_Shape_161.obj':
+		Initial shapes:
+			161, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_138' 'CityEngineMaterial_26'         2 
+	'Landmarks_model_Shape_162.obj':
+		Initial shapes:
+			162, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_139' 'CityEngineMaterial_22'         2 
+	'Landmarks_model_Shape_163.obj':
+		Initial shapes:
+			163, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_140' 'CityEngineMaterial_10'         1 
+	'Landmarks_model_Shape_164.obj':
+		Initial shapes:
+			164, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_141' 'CityEngineMaterial_16'         1 
+	'Landmarks_model_Shape_165.obj':
+		Initial shapes:
+			165, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_142' 'CityEngineMaterial_18'         2 
+	'Landmarks_model_Shape_166.obj':
+		Initial shapes:
+			166, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_143' 'CityEngineMaterial_28'         1 
+	'Landmarks_model_Shape_167.obj':
+		Initial shapes:
+			167, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_144' 'CityEngineMaterial_17'         2 
+	'Landmarks_model_Shape_168.obj':
+		Initial shapes:
+			168, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_145' 'CityEngineMaterial_10'         2 
+	'Landmarks_model_Shape_169.obj':
+		Initial shapes:
+			169, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_146' 'CityEngineMaterial_13'         2 
+	'Landmarks_model_Shape_170.obj':
+		Initial shapes:
+			170, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_147' 'CityEngineMaterial_20'         1 
+	'Landmarks_model_Shape_171.obj':
+		Initial shapes:
+			171, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_148' 'CityEngineMaterial_20'         1 
+	'Landmarks_model_Shape_172.obj':
+		Initial shapes:
+			172, 
+		GEOMETRY:
+			Total Meshes: 2
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_149' 'CityEngineMaterial_12'         1 
+			2  'mesh_CityEngineMaterial_150' 'CityEngineMaterial_24'         1 
+	'Landmarks_model_Shape_173.obj':
+		Initial shapes:
+			173, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_151' 'CityEngineMaterial_13'         1 
+	'Landmarks_model_Shape_174.obj':
+		Initial shapes:
+			174, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_152' 'CityEngineMaterial_13'         1 
+	'Landmarks_model_Shape_175.obj':
+		Initial shapes:
+			175, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_153' 'CityEngineMaterial_23'         2 
+	'Landmarks_model_Shape_176.obj':
+		Initial shapes:
+			176, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_154' 'CityEngineMaterial_11'         2 
+	'Landmarks_model_Shape_177.obj':
+		Initial shapes:
+			177, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 2
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_155' 'CityEngineMaterial_20'         2 
+	'Landmarks_model_Shape_178.obj':
+		Initial shapes:
+			178, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_156' 'CityEngineMaterial_23'         1 
+	'Landmarks_model_Shape_179.obj':
+		Initial shapes:
+			179, 
+		GEOMETRY:
+			Total Meshes: 1
+			Total Polygons: 1
+			  | Name                        | Material              | Polygons 
+			==+=============================+=======================+==========
+			1  'mesh_CityEngineMaterial_157' 'CityEngineMaterial_12'         1 
+	'Landmarks_model_Shape_1.obj':
+		Initial shapes:
+			180, 
+		GEOMETRY:
+			Total Meshes: 10
+			Total Polygons: 6489
+			   | Name                        | Material              | Polygons 
+			===+=============================+=======================+==========
+			 1  'mesh_CityEngineMaterial_158' 'CityEngineMaterial_34'       404 
+			 2  'mesh_CityEngineMaterial_159' 'CityEngineMaterial_12'      4520 
+			 3  'mesh_CityEngineMaterial_160' 'CityEngineMaterial_6'        935 
+			 4  'mesh_CityEngineMaterial_161' 'CityEngineMaterial_35'        90 
+			 5  'mesh_CityEngineMaterial_162' 'CityEngineMaterial_4'        121 
+			 6  'mesh_CityEngineMaterial_163' 'CityEngineMaterial_31'         3 
+			 7  'mesh_CityEngineMaterial_164' 'CityEngineMaterial_9'        106 
+			 8  'mesh_CityEngineMaterial_165' 'CityEngineMaterial_33'       210 
+			 9  'mesh_CityEngineMaterial_166' 'CityEngineMaterial_1'         60 
+			10  'mesh_CityEngineMaterial_167' 'CityEngineMaterial_32'        40 
+	'Landmarks_model.mtl':
+		MATERIAL:
+			Total Materials: 36
+			   | Name                  | Texture_0                                    
+			===+=======================+==============================================
+			 1  'CityEngineMaterial_29' 'Brick White Dirty Running Bond.jpg'          
+			 2  'CityEngineMaterial_13' 'Stucco Redlands White.jpg'                   
+			 3  'CityEngineMaterial_25' 'Brick Brown No Mortar Rough Running Bond.jpg'
+			 4  'CityEngineMaterial_17' 'Brick Red Running Bond.jpg'                  
+			 5  'CityEngineMaterial_34' ''                                            
+			 6  'CityEngineMaterial_8'  'Brick Varied Brown Running Bond.jpg'         
+			 7  'CityEngineMaterial_21' 'Camelot Shingle.jpg'                         
+			 8  'CityEngineMaterial_26' 'Cement Block Dark Grey Running Bond.jpg'     
+			 9  'CityEngineMaterial_14' 'Terracotta Tile Dark Brown.jpg'              
+			10  'CityEngineMaterial_4'  ''                                            
+			11  'CityEngineMaterial_9'  ''                                            
+			12  'CityEngineMaterial_24' 'Mesa Shingle Brown.jpg'                      
+			13  'CityEngineMaterial_5'  ''                                            
+			14  'CityEngineMaterial_1'  ''                                            
+			15  'CityEngineMaterial_18' 'Stucco Redlands Brown.jpg'                   
+			16  'CityEngineMaterial_22' 'Cement Block Grey Running Bond.jpg'          
+			17  'CityEngineMaterial_31' 'Flat Metal 6.jpg'                            
+			18  'CityEngineMaterial_23' 'Brick Brown No Mortar Running Bond.jpg'      
+			19  'CityEngineMaterial_7'  ''                                            
+			20  'CityEngineMaterial_3'  'Brick Red No Mortar Running Bond.jpg'        
+			21  'CityEngineMaterial_35' ''                                            
+			22  'CityEngineMaterial_10' 'Cement Block Light Running Bond.jpg'         
+			23  'CityEngineMaterial_32' ''                                            
+			24  'CityEngineMaterial_19' 'GAF Elk WeatherMax Charcoal.jpg'             
+			25  'CityEngineMaterial_28' 'Brick Brown Running Bond.jpg'                
+			26  'CityEngineMaterial_15' 'Terracotta Tile Red.jpg'                     
+			27  'CityEngineMaterial'    'Standard Dura Shingle.jpg'                   
+			28  'CityEngineMaterial_27' 'Brick White Painted Running Bond.jpg'        
+			29  'CityEngineMaterial_11' 'Brick Grey Running Bond.jpg'                 
+			30  'CityEngineMaterial_6'  ''                                            
+			31  'CityEngineMaterial_2'  'Flat Standard 3.jpg'                         
+			32  'CityEngineMaterial_30' 'Barrel Tile Red Mixed.jpg'                   
+			33  'CityEngineMaterial_12' 'Stucco Redlands Red.jpg'                     
+			34  'CityEngineMaterial_33' 'asphalt_brighter.jpg'                        
+			35  'CityEngineMaterial_20' 'Brick Red High Contrast Running Bond.jpg'    
+			36  'CityEngineMaterial_16' 'Cement Block Grey Specks Running Bond.jpg'   

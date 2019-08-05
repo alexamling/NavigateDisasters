@@ -1,0 +1,217 @@
+Export time: 2018/07/10 16:31:22 EDT
+Export duration: 54.502s
+
+Export settings:
+	Export Geometry: Models with Shape Fallback
+	Output Path: J:\
+	Simplify Terrain Meshes: true
+	Terrain Layers: Export all selected terrain layers
+	applicationName: CityEngine
+	applicationString: CityEngine 2018.0.3929 0503R
+	applicationVendor: Esri R&D Center Zurich Inc.
+	applicationVersion: 2018.0.3929 05031749
+	atlasAddWrapBorder: true
+	author: IGMAdmin
+	baseName: Scene_7(Fixing_Roads)_
+	collectTextures: true
+	createTextureAtlases: false
+	encoderID: com.esri.prt.codecs.OBJEncoder
+	encoderName: Wavefront OBJ
+	errorFallback: true
+	existingFiles: OVERWRITE
+	facesWithHoles: TRIANGULATE_FACES_WITH_HOLES
+	fileGranularity: MEMORY_BUDGET
+	globalOffset: [ -303538.96875, -12.226705551147461, 3261751.7098999023 ]
+	includeMaterials: true
+	localOffset: NONE
+	maxAtlasDim: 11
+	memoryBudget: 500
+	mergeNormals: true
+	mergeTexcoords: true
+	mergeVertices: true
+	meshGranularity: PER_MATERIAL
+	normalPrecision: 0.001
+	sceneFile: /Dickinson_Model/scenes/Scene_7(Fixing_Roads)_.cej
+	script: 
+	shapeNameDelimiter: _
+	texcoordPrecision: 1.0E-4
+	textureCoordinates: FIRST
+	triangulateMeshes: false
+	vertexNormals: PASS
+	vertexPrecision: 0.001
+	writeLog: true
+
+Initial shapes:
+	 0 :   OK                'Dickinson High School'                                                OID 'e628c50a-2cdb-11b2-995b-0045c4fde6fd'
+		CGA Warnings:
+			[Method: 'Default$Roof$RoofFlatEdge'] offset(): offsetPolygons failed (polygon is complex).
+			[Method: 'Default$Roof$RoofFlatEdge'] offset(): Rule 'Default$Roof$RoofFlatEdge()V': offset failed.
+	 1 :   OK                'John and Shamarion Barber Middle School'                              OID '6218ef4f-2cf4-11b2-995b-0045c4fde6fd'
+	 2 :   OK                'Speed Fuel Gas Station'                                               OID 'b51b1de5-2d0c-11b2-995b-0045c4fde6fd'
+	 3 :   OK                'USA Food Store (Store section of Speed Fuel Gas Station)'             OID 'f13a6b16-2d1c-11b2-995b-0045c4fde6fd'
+	 4 :   OK                'Frazier’s Guide Service'                                              OID '3e4530a4-2d7f-11b2-995b-0045c4fde6fd'
+	 5 :   OK                'Marco's Auto Repair'                                                  OID '5cfd52a1-2e0b-11b2-995b-0045c4fde6fd'
+	 6 :   OK                'Meadow Glenn Personal Care Home'                                      OID '5be32966-2ef4-11b2-995b-0045c4fde6fd'
+	 7 :   OK                'Briar Glen Sign'                                                      OID '5375087e-2f74-11b2-995b-0045c4fde6fd'
+	 8 :   OK                'Banyan Bay Sign'                                                      OID '4c446136-3054-11b2-995b-0045c4fde6fd'
+	 9 :   OK                'Tuscan Cove Apartments Sign'                                          OID '18de5b4f-31ab-11b2-995b-0045c4fde6fd'
+	10 :   OK                'Cameo Place Sign'                                                     OID 'a31a0302-31f0-11b2-995b-0045c4fde6fd'
+	11 :   OK                'Star Seafood'                                                         OID 'f383d971-3322-11b2-995b-0045c4fde6fd'
+	12 :   OK                'California Park and Storage Sign'                                     OID '43f95ce9-3359-11b2-995b-0045c4fde6fd'
+	13 :   OK                'Ray Holbrook Park'                                                    OID '6a1e5c89-3395-11b2-995b-0045c4fde6fd'
+	14 :   OK                'Ray Holbrook Park Sign'                                               OID '2c782c63-339b-11b2-995b-0045c4fde6fd'
+	15 :   OK                'Baker Drive Baptist Church'                                           OID '7e2cc057-33b5-11b2-995b-0045c4fde6fd'
+	16 :   OK                'Dickinson Donuts'                                                     OID '3b0c0ef4-33ce-11b2-995b-0045c4fde6fd'
+	17 :   OK                'Dickinson High School Baseball Field'                                 OID 'f0777314-33d9-11b2-995b-0045c4fde6fd'
+	18 :   OK                'Dickinson High School Football Stadium'                               OID '847b1929-33e5-11b2-995b-0045c4fde6fd'
+	19 :   OK                'Dickinson High School Tennis Courts'                                  OID '7764c2d9-33f9-11b2-995b-0045c4fde6fd'
+
+Assets with errors/warnings/infos:
+	<initial shape geometry>:
+		Warning: Geometry ' (mesh: Dickinson High School)' contained: 4 0-length edges (removed); 9 0-angles (removed); 
+	rules/BuildingsBETA/BuildingShell_with_Detail_MOD_FOSS_UC.cgb:
+		Warning: Potentially problematic CGAC version 1.5 : recompiling with current CGA Compiler (1.10) is recommended.
+
+
+Files created:
+	'Scene_7(Fixing_Roads)__0.obj':
+		Initial shapes:
+			0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 
+		GEOMETRY:
+			Total Meshes: 64
+			Total Polygons: 79695
+			   | Name                         | Material                | Polygons 
+			===+==============================+=========================+==========
+			 1  'mesh_AnalyticalCrown'         'AnalyticalCrown_10'           3942 
+			 2  'mesh_AnalyticalCrown_1'       'AnalyticalCrown_6'            3942 
+			 3  'mesh_AnalyticalTrunk'         'AnalyticalTrunk'               756 
+			 4  'mesh_CityEngineMaterial'      'CityEngineMaterial_3'        14029 
+			 5  'mesh_CityEngineMaterial_1'    'CityEngineMaterial_24'          10 
+			 6  'mesh_CityEngineMaterial_2'    'CityEngineMaterial_23'           1 
+			 7  'mesh_CityEngineMaterial_3'    'CityEngineMaterial_15'          32 
+			 8  'mesh_CityEngineMaterial_4'    'CityEngineMaterial_34'           1 
+			 9  'mesh_AnalyticalCrown_2'       'AnalyticalCrown_9'            2646 
+			10  'mesh_CityEngineMaterial_5'    'CityEngineMaterial_37'           1 
+			11  'mesh_AnalyticalCrown_3'       'AnalyticalCrown_2'            3942 
+			12  'mesh_AnalyticalTrunk_1'       'AnalyticalTrunk_9'             378 
+			13  'mesh_CityEngineMaterial_6'    'CityEngineMaterial_33'           6 
+			14  'mesh_CityEngineMaterial_7'    'CityEngineMaterial_26'           1 
+			15  'mesh_CityEngineMaterial_8'    'CityEngineMaterial_21'           4 
+			16  'mesh_CityEngineMaterial_9'    'CityEngineMaterial_19'           4 
+			17  'mesh_AnalyticalCrown_4'       'AnalyticalCrown_1'            3942 
+			18  'mesh_CityEngineMaterial_10'   'CityEngineMaterial_31'           1 
+			19  'mesh_AnalyticalTrunk_2'       'AnalyticalTrunk_8'             378 
+			20  'mesh_CityEngineMaterial_11'   'CityEngineMaterial_17'          10 
+			21  'mesh_AnalyticalCrown_5'       'AnalyticalCrown_5'            3942 
+			22  'mesh_CityEngineShapeMaterial' 'CityEngineShapeMaterial'        49 
+			23  'mesh_AnalyticalTrunk_3'       'AnalyticalTrunk_3'             364 
+			24  'mesh_CityEngineMaterial_12'   'CityEngineMaterial_14'          42 
+			25  'mesh_AnalyticalTrunk_4'       'AnalyticalTrunk_2'             378 
+			26  'mesh_CityEngineMaterial_13'   'CityEngineMaterial_4'          113 
+			27  'mesh_CityEngineMaterial_14'   'CityEngineMaterial_38'           1 
+			28  'mesh_CityEngineMaterial_15'   'CityEngineMaterial_32'           6 
+			29  'mesh_AnalyticalTrunk_5'       'AnalyticalTrunk_7'             378 
+			30  'mesh_CityEngineMaterial_16'   'CityEngineMaterial_36'           4 
+			31  'mesh_CityEngineMaterial_17'   'CityEngineMaterial_28'           4 
+			32  'mesh_CityEngineMaterial_18'   'CityEngineMaterial_12'          98 
+			33  'mesh_AnalyticalCrown_6'       'AnalyticalCrown_11'           3796 
+			34  'mesh_AnalyticalTrunk_6'       'AnalyticalTrunk_1'             378 
+			35  'mesh_AnalyticalTrunk_7'       'AnalyticalTrunk_6'             378 
+			36  'mesh_CityEngineMaterial_19'   'CityEngineMaterial_30'           8 
+			37  'mesh_CityEngineMaterial_20'   'CityEngineMaterial_10'          34 
+			38  'mesh_AnalyticalCrown_7'       'AnalyticalCrown_3'            3796 
+			39  'mesh_CityEngineMaterial_21'   'CityEngineMaterial_13'         476 
+			40  'mesh_CityEngineMaterial_22'   'CityEngineMaterial_7'         1576 
+			41  'mesh_CityEngineMaterial_23'   'CityEngineMaterial_5'           30 
+			42  'mesh_CityEngineMaterial_24'   'CityEngineMaterial_8'            5 
+			43  'mesh_CityEngineMaterial_25'   'CityEngineMaterial_6'         4160 
+			44  'mesh_CityEngineMaterial_26'   'CityEngineMaterial_2'           86 
+			45  'mesh_CityEngineMaterial_27'   'CityEngineMaterial_35'           4 
+			46  'mesh_CityEngineMaterial_28'   'CityEngineMaterial_16'           1 
+			47  'mesh_AnalyticalCrown_8'       'AnalyticalCrown_4'            3942 
+			48  'mesh_CityEngineMaterial_29'   'CityEngineMaterial_22'           4 
+			49  'mesh_AnalyticalTrunk_8'       'AnalyticalTrunk_10'            378 
+			50  'mesh_CityEngineMaterial_30'   'CityEngineMaterial_1'          202 
+			51  'mesh_AnalyticalCrown_9'       'AnalyticalCrown_7'            3942 
+			52  'mesh_AnalyticalCrown_10'      'AnalyticalCrown'              7884 
+			53  'mesh_AnalyticalTrunk_9'       'AnalyticalTrunk_11'            364 
+			54  'mesh_AnalyticalTrunk_10'      'AnalyticalTrunk_4'             378 
+			55  'mesh_CityEngineMaterial_31'   'CityEngineMaterial_29'           1 
+			56  'mesh_AnalyticalTrunk_11'      'AnalyticalTrunk_5'             378 
+			57  'mesh_CityEngineMaterial_32'   'CityEngineMaterial_18'          12 
+			58  'mesh_CityEngineMaterial_33'   'CityEngineMaterial_25'          10 
+			59  'mesh_CityEngineMaterial_34'   'CityEngineMaterial_20'           1 
+			60  'mesh_AnalyticalCrown_11'      'AnalyticalCrown_8'            3942 
+			61  'mesh_CityEngineMaterial_35'   'CityEngineMaterial_9'         4095 
+			62  'mesh_CityEngineMaterial_36'   'CityEngineMaterial_11'          17 
+			63  'mesh_CityEngineMaterial_37'   'CityEngineMaterial'              8 
+			64  'mesh_CityEngineMaterial_38'   'CityEngineMaterial_27'           4 
+	'Scene_7(Fixing_Roads)_.mtl':
+		MATERIAL:
+			Total Materials: 64
+			   | Name                    | Texture_0                            | Texture_1       
+			===+=========================+======================================+=================
+			 1  'AnalyticalCrown_2'       ''                                     ''               
+			 2  'CityEngineMaterial_7'    ''                                     ''               
+			 3  'AnalyticalTrunk'         ''                                     ''               
+			 4  'AnalyticalCrown_9'       ''                                     ''               
+			 5  'CityEngineMaterial_14'   ''                                     ''               
+			 6  'CityEngineMaterial_28'   'u_f002_t004_Residential_005.jpg'      ''               
+			 7  'AnalyticalTrunk_4'       ''                                     ''               
+			 8  'AnalyticalCrown_8'       ''                                     ''               
+			 9  'CityEngineMaterial_15'   ''                                     ''               
+			10  'AnalyticalTrunk_6'       ''                                     ''               
+			11  'CityEngineMaterial_22'   'u_f002_t002_Residential_009.jpg'      ''               
+			12  'AnalyticalTrunk_9'       ''                                     ''               
+			13  'CityEngineMaterial_18'   'g_f001_t006_Residential_001.jpg'      ''               
+			14  'AnalyticalTrunk_2'       ''                                     ''               
+			15  'CityEngineMaterial_17'   'Stucco Redlands White.jpg'            ''               
+			16  'CityEngineMaterial_4'    ''                                     ''               
+			17  'CityEngineMaterial_34'   'flatRoof_30.jpg'                      'flatRoof_30.jpg'
+			18  'CityEngineMaterial_5'    ''                                     ''               
+			19  'CityEngineMaterial_9'    'Brick Red Running Bond.jpg'           ''               
+			20  'CityEngineMaterial_20'   'flatRoof_28.jpg'                      'flatRoof_28.jpg'
+			21  'AnalyticalTrunk_5'       ''                                     ''               
+			22  'CityEngineMaterial_13'   ''                                     ''               
+			23  'CityEngineMaterial_1'    ''                                     ''               
+			24  'AnalyticalTrunk_7'       ''                                     ''               
+			25  'CityEngineMaterial_2'    'Flat Standard 3.jpg'                  ''               
+			26  'AnalyticalTrunk_3'       ''                                     ''               
+			27  'CityEngineShapeMaterial' ''                                     ''               
+			28  'CityEngineMaterial_11'   ''                                     ''               
+			29  'CityEngineMaterial_16'   'Flat Standard 5.jpg'                  ''               
+			30  'CityEngineMaterial_23'   'flatRoof_3.jpg'                       'flatRoof_3.jpg' 
+			31  'AnalyticalCrown_5'       ''                                     ''               
+			32  'CityEngineMaterial_24'   'g_f001_t003_Residential_010.jpg'      ''               
+			33  'AnalyticalCrown_6'       ''                                     ''               
+			34  'CityEngineMaterial_26'   'flatRoof_17.jpg'                      'flatRoof_17.jpg'
+			35  'CityEngineMaterial_31'   'flatRoof_28.jpg'                      'flatRoof_28.jpg'
+			36  'AnalyticalTrunk_11'      ''                                     ''               
+			37  'CityEngineMaterial_35'   'g_f001_t006_Residential_029.jpg'      ''               
+			38  'CityEngineMaterial_29'   'flatRoof_40.jpg'                      'flatRoof_40.jpg'
+			39  'AnalyticalCrown_3'       ''                                     ''               
+			40  'CityEngineMaterial_8'    'Flat Metal 4.jpg'                     ''               
+			41  'CityEngineMaterial_37'   'flatRoof_38.jpg'                      'flatRoof_38.jpg'
+			42  'CityEngineMaterial_6'    ''                                     ''               
+			43  'CityEngineMaterial_27'   'g_f001_t006_Residential_036.jpg'      ''               
+			44  'CityEngineMaterial_19'   'u_f001_t002_Residential_008.jpg'      ''               
+			45  'AnalyticalTrunk_8'       ''                                     ''               
+			46  'AnalyticalCrown'         ''                                     ''               
+			47  'AnalyticalCrown_7'       ''                                     ''               
+			48  'AnalyticalCrown_4'       ''                                     ''               
+			49  'AnalyticalCrown_10'      ''                                     ''               
+			50  'CityEngineMaterial_10'   ''                                     ''               
+			51  'CityEngineMaterial_36'   'u_f002_t004_Residential_001.jpg'      ''               
+			52  'CityEngineMaterial_12'   'asphalt_brighter.jpg'                 ''               
+			53  'CityEngineMaterial_32'   'g_f001_t006_Residential_017.jpg'      ''               
+			54  'CityEngineMaterial_30'   'u_f002_t002_Residential_007.jpg'      ''               
+			55  'CityEngineMaterial_25'   'u_f001_t002_Residential_001.jpg'      ''               
+			56  'CityEngineMaterial_38'   'flatRoof_18.jpg'                      'flatRoof_18.jpg'
+			57  'AnalyticalTrunk_10'      ''                                     ''               
+			58  'AnalyticalTrunk_1'       ''                                     ''               
+			59  'AnalyticalCrown_11'      ''                                     ''               
+			60  'CityEngineMaterial_21'   'g_f001_t006_Residential_012.jpg'      ''               
+			61  'AnalyticalCrown_1'       ''                                     ''               
+			62  'CityEngineMaterial_33'   'u_f001_t002_Residential_009.jpg'      ''               
+			63  'CityEngineMaterial'      'Standard Dura Shingle.jpg'            ''               
+			64  'CityEngineMaterial_3'    'Brick Red No Mortar Running Bond.jpg' ''               

@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SeaRipples
+  m_Shader: {fileID: 4800000, guid: 0c1981a9a4649d3448defac0fcde7023, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: ece412d1e2f204449b33c39c2008b7a3, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Foam:
+        m_Texture: {fileID: 2800000, guid: a92b6664d2ca8d244a6aaa0aada2cc9b, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Wave1:
+        m_Texture: {fileID: 2800000, guid: 58e5c8d32a9b8b3478c56dbbefd37882, type: 3}
+        m_Scale: {x: 0.3, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _Wave2:
+        m_Texture: {fileID: 2800000, guid: 4680bc95f5e5574449cb5dabdc965736, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Bias: -1
+    - _DepthTransperent: 0.28571427
+    - _Distortion: 350
+    - _DistortionVert: 2
+    - _EdgeDistortion: 0.2
+    - _FPOW: 5
+    - _FadeBlend: 10
+    - _FadeBlend2: 0.76
+    - _FadeDepth: 0.15
+    - _FoamIntensity: 0
+    - _GerstnerIntensity: 1
+    - _OffsetFresnel: 0.3
+    - _Power: 1.5
+    - _R0: 0.9
+    - _ReflectionBrightness: 0.3392857
+    - _Scale: 12
+    - _Shininess: 10
+    - _TexturesScale: 20
+    - _WaveScale: 1.5
+    m_Colors:
+    - _Color: {r: 0.65224916, g: 0.7552699, b: 0.7647059, a: 1}
+    - _Direction: {r: 0.05, g: 0.3, b: 15, a: -3}
+    - _FadeColor: {r: 0.49019608, g: 0.80784315, b: 0.9098039, a: 1}
+    - _FoamDirection: {r: 0, g: 5, b: -1, a: -1}
+    - _GAmplitude: {r: 0.07, g: 0.1, b: 0.04, a: 0.26}
+    - _GDirectionAB: {r: 0.4, g: -0.2, b: 0.3, a: 0.25}
+    - _GDirectionCD: {r: 0.1, g: 2, b: 0.3, a: 0.5}
+    - _GFrequency: {r: 5, g: -3, b: 1, a: 0.8}
+    - _GSpeed: {r: 2, g: 2, b: 2, a: -2}
+    - _GSteepness: {r: 0.03, g: 0.05, b: -0.05, a: 0.06}
+    - _GlareColor: {r: 0.09803922, g: 0.105882354, b: 0.11764706, a: 1}
+    - _ReflectionColor: {r: 0.39215687, g: 0.39215687, b: 0.39215687, a: 1}
