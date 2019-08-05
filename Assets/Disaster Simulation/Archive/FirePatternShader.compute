@@ -1,0 +1,48 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+#pragma kernel RotateTexture
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+RWTexture2D<float4> Result;
+
+float4 RotationMatrix;
+
+float WindStrength;
+
+[numthreads(8,8,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+	uint w, h;
+	Result.GetDimensions(w, h);
+
+	float windValue = (h - id.y) / (h * .75f);
+	windValue *= WindStrength * .1;
+
+	float windSpread = 1 / ((WindStrength * .001));
+	float windArea = (id.x - (w * .5f)) * (id.x - (w * .5f)) / windSpread;
+	windArea -= id.y - (h * .45f);
+	windArea = 1 - windArea;
+
+	float value = windValue * saturate(windArea);
+
+	value += saturate(1 - (distance((w * .5f, h * .5), id.xy)) * (WindStrength * WindStrength * .01 + .005));
+
+	Result[id.xy] = float4(value, value, value, 0);
+}
+
+[numthreads(8, 8, 1)]
+void RotateTexture(uint3 id : SV_DispatchThreadID) {
+	uint w, h;
+	Result.GetDimensions(w, h);
+
+	float2x2 rot = float2x2(RotationMatrix.x, RotationMatrix.y, RotationMatrix.z, RotationMatrix.w);
+	RWTexture2D<float4> oldTexture = Result;
+
+	int2 newPos = { id.x, id.y };
+	newPos.xy -= (w * .5f, h * .5f); 
+	newPos.xy = mul(newPos.xy, rot);
+	newPos.xy += (w * .5f, h * .5f);
+	Result[id.xy] = oldTexture[newPos.xy];
+}
+ 

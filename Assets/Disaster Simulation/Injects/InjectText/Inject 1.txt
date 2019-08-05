@@ -1,0 +1,37 @@
+Inject:A police officer calls the water superintendent to let them know that, while on patrol, he noticed a water main spurting. THe local waste treatment facility has just notified you that one of the sewers for the city is functioning at a diminished capacity & they have just learned that substances from the line is seeping into the underground water supply. If not addressed correctly, the water supply could be contaminated, resulting in sickness of the population or panic throughout the city. 
+Display
+Option:Consult the EOP as to the recommended actions and follow the actions
+Result:Per the EOP, in the event of a water contamination concern, take necessary action
+Option:Issue Press Release
+Result:A Water main break along a major intersection has many citizens of the area especially concerned. The Office of Emergency Management has shared a press release stating the nature of the situation. 
+Option:Disregard Information as it is not the County's Job
+Result:A Water Main Break has many citizens of the area especially concerned. The Office of Emergency Management has not taken any action & the news station was unable to contact the water company due to the overwhelming amount of calls.
+Display
+Intervals:0^2/2^4/4^6
+Option:Contact the water department to handle the issue.
+Result:We are sending personnel to assess & fix the water main break.  We have collected water samples & sent them in to the lab considering concern about contamination. We will have to wait some time before we receive word about the results.
+Option:Send EOC resources to address issue
+Result:Citizens see personnel on scene who are not the water department and are especially concerned about the safety of said water source.
+OptionEnd^5:Suggest that all concerned people contact their local hospitals
+Result:The Hospital has received an overwhelming amount of calls asking for wellness checks and for their water to be tested. There is mass concern and panic across the city. The hospital is being crowded with these sorts of people.
+Option:Contact water department to work together 
+Result:Tell the department how to handle the situation
+OptionEnd^9:Continue to do nothing.
+Result:The lack of action regarding does not reflect well on the county as well as the negative consequences associated with citizens drinking potentially contaminated water. 
+OptionEnd^8:Contact Water Department to offer support
+Result:Since the water was running so long without being addressed, there was a significant pressure lost, contamination concerns, and sickness among the population. Because you neglected action on the issue for so long, this is going to be a long-term issue that will require more assistance than your office can provide.
+Display
+Intervals:0^2/2^4/-1/4^6/-1/-1
+OptionEnd^1:Issue a "Do Not Use" notice
+Result:After the Lab reports that the bacteria has been cleared of the city water supply, the water is safe to drink. Because the population was educated & the situation was handled promptly & by the correct personnel, unnecessary cases were prevented.
+OptionEnd^2:Do not issue any public statements until the lab results are known
+Result:Local news stations are reporting a case of 10 school children who have been admitted to the closest Hospital. These children have all complained of stomach pain, nausea, and diarrhea. They all drank water out of their respective sinks from the city supply.  The hospital is now dealing with the issue & has issued a suggestion to boil water to prevent further cases.
+OptionEnd^3:Ask Water Department for help
+Result:Contacting the Water Department was a smart decision. Because you initially sent people, while it was the wrong people, the situation was slightly improved. Since you chose to contact the proper personnel to address  the situation the consequences are minimal compared to if you had not contacted the Water Department.
+OptionEnd^6:Continue to have EOC resources allocated towards situation
+Result:The water is continuing with no hope of ceasing. The water has become contaminated and this situation does not reflect well on your office. 
+OptionEnd^4:Issue a "Do Not Use" Notice
+Result:After The Lab reports that the bacteria has been cleared of the city water supply and the water is safe to drink. Because the population was educated and the situation was handled promptly and by the correct personnel, unnecessary cases were prevented.
+OptionEnd^7:Do Not Issue any public statements until results are confirmed 
+Result:Despite the Initial sharing of information regarding the situation, the OEM has suddenly become tight lipped about the situation. 
+Display

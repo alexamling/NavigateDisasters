@@ -1,0 +1,71 @@
+Score: 75/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 1.0/ 3.0/ 2.0/ 5.0/ 4.0/
+DelayedResponseModifiers: 1.0/ 3.0/ 2.0/ 5.0/ 4.0/
+NotificationTitle: Traffic Accident/
+FullMessage: The police department reports that there has been an accident at a busy intersection. This does not critically affect intra-city travel, but would be beneficial to handle in time./
+TimeLimit: 60/
+NeedsResponse: false
+|
+Score: 100/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 2.0/ 3.0/ 4.0/ 5.0/ 1.0/
+DelayedResponseModifiers: 2.0/ 3.0/ 4.0/ 5.0/ 1.0/
+NotificationTitle: Highway Traffic Accident/
+FullMessage: The police department reports that there has been an accident along an on-ramp onto one of the highways. At the moment, traffic is moving slowly. Sending law enforcement to re-route the traffic would assist in speeding up traffic./
+TimeLimit: 60/
+NeedsResponse: false
+|
+Score: 150/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 2.0/ 3.0/ 4.0/ 5.0/ 1.0/
+DelayedResponseModifiers: 2.0/ 3.0/ 4.0/ 5.0/ 1.0/
+NotificationTitle: Multi-Car Accident/
+FullMessage: The police department reports that there has been a major accident along I-45 that is forcing all traffic to a standstill. Law Enforcement are needed to re-route traffic immediately./
+TimeLimit: 60/
+NeedsResponse: true
+|
+Score: 125/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 3.0/ 4.0/ 1.0/ 5.0/ 2.0/
+DelayedResponseModifiers: 3.0/ 4.0/ 1.0/ 5.0/ 2.0/
+NotificationTitle: Abduction Alert/
+FullMessage: According to local law enforcement, it has been reported that a child has been reported missing in the midst of the flooding. Parents last saw the child outside of the home. This particular home was not flooded and the family was staying since they sat on higher ground. In the aftermath of the storm, there appears to have been a higher presence of vehicles roaming all the different neighborhoods./
+TimeLimit: 60/
+NeedsResponse: true
+|
+Score: 100/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 2.0/ 4.0/ 3.0/ 5.0/ 1.0/
+DelayedResponseModifiers: 2.0/ 4.0/ 3.0/ 5.0/ 1.0/
+NotificationTitle: Residential Looting/
+FullMessage: Callers report that there appears to be two suspicious individuals walking through the neighborhood. They appear to be carrying large bags with them./
+TimeLimit: 60/
+NeedsResponse: true
+|
+Score: 75/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 2.0/ 4.0/ 3.0/ 5.0/ 1.0/
+DelayedResponseModifiers: 2.0/ 4.0/ 3.0/ 5.0/ 1.0/
+NotificationTitle: Residential Looting/
+FullMessage: Callers report that there are currently two individuals using a crowbar to break into a home where the family evacuated. The caller says they are calling from a safe location./
+TimeLimit: 60/
+NeedsResponse: false
+|
+Score: 75/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 2.0/ 4.0/ 3.0/ 5.0/ 1.0/
+DelayedResponseModifiers: 2.0/ 4.0/ 3.0/ 5.0/ 1.0/
+NotificationTitle: Commercial Looting/
+FullMessage: It is reported that an individual, per video recording, is trying to break into an ATM in an area that appears to be like a ghost town from a voluntary evacuation./
+TimeLimit: 60/
+NeedsResponse: false
+|
+Score: 75/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 2.0/ 4.0/ 3.0/ 5.0/ 1.0/
+DelayedResponseModifiers: 2.0/ 4.0/ 3.0/ 5.0/ 1.0/
+NotificationTitle: Commercial Looting/
+FullMessage: Per a caller from their home, it appears that there is an individual trying to break into one of the liquor stores in the area. It appears as if they threw a brick and broke the window./
+TimeLimit: 60/
+NeedsResponse: false

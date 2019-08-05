@@ -1,0 +1,27 @@
+Inject:Patients are steadily coming into the Galveston area hospitals. A report that the UTMB Hospital's admissions department issued to the surrounding hospitals in Galveston County as well as your office states that they have reached bed capacity. They will have to redirect incoming ambulances to other hospitals. While there are many hospitals in the region,UTMB is unaware of the current condition of each hospital. They are requesting your help in coordinating patient transfers. They still have people coming into the ER. 
+Display
+Option:Contact other hospitals to find reports
+Result:Hospitals found!  Choose which route you would like to take.
+Option:Start Sending patients to hospitals in surrounding areas without prior contact
+Result:The hospitals you chose to send the patients to cannot handle ALL of the patients you have sent. You must redirect patients in order to provide sufficient care
+Display
+Intervals:0^2/2^4
+Option:Based on proximity and time, pick primary route for patients from two options
+Result:The options are a hospital that is further away from the flooding with fewer beds or a hospital that is closer to the flooding area & has more beds.  
+Option:Send on the fastest route
+Result:EMS Personnel have been sent from the primary hospital via the fastest route to the alternate hospital locations. They are reporting a road being closed due to flooding from a waterway. An alternate route is needed in order to get the patients to the hospital.
+OptionEnd^6:Redirect all patients
+Result:While the hospital could not adequately handle all of the patients, they did have the ability to handle a small number. Not all the patients needed to be redirected. Half of the patients transported have either decreased in their health or have expired. During the whole incident, the media picked up on radio chatter and has issued a news report that does not reflect well on your office and requires long-term reaction. 
+OptionEnd^5:Redirect only those patients that overwhelm resources
+Result:While the hospital was not able to fully handle all of the patients you sent, because you only transported those beyond the hospital's capacity, they were able to treat and maintain the health levels of the patients. However, since you did transport before looking at the routes overall, a small number of patients expired due to the travel time and lack of hospital care. 
+Display
+Intervals:0^2/2^4/-1/-1
+OptionEnd^1:Send patient transport on primary route
+Result:The primary route that you sent EMS on is impeded by a flooded road. Because you have selected a secondary route as a backup option, the EMS personnel took the patients via that route without concern. The patient transfers were successful with minimal severe repercussions. 
+OptionEnd^2:Send on secondary route
+Result:While the secondary route may have taken more time than the primary route, you chose a safer route. The primary route had a flooded road, but this did not affect personnel and because of that, the patients arrived at the hospital safely. 
+OptionEnd^3:Re-evaluate routes and find next fastest using the map 
+Result:Re-evaluation provides that the secondary route is still available but will take 10min longer. The EMS Vehicle has arrived to the correct hospital using the secondary route. Because you chose not to consider all available paths and instead took the quickest route, which proved to not be the correct route, a greater number of patients have died or decreased in health. 
+OptionEnd^4:Send to next closest hospital based on current location
+Result:The hospital where you routed EMS Vehicles cannot accept the patients you sent. Because you didn't check what hospitals could handle the patient transfers, the patients have deteriorated health.  
+Display

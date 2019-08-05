@@ -1,0 +1,35 @@
+Score: 75/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 2.0/ 4.0/ 3.0/ 1.0/ 5.0/
+DelayedResponseModifiers: 2.0/ 4.0/ 3.0/ 1.0/ 5.0/
+NotificationTitle: Brush Fire/
+FullMessage: The 911 Dispatch Center has reported a fire in Galveston County. It is being reported that the fire is a low class brush fire and more than likely able to be handled by local reinforcements./
+TimeLimit: 60/
+NeedsResponse: false
+|
+Score: 175/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 2.0/ 5.0/ 3.0/ 1.0/ 4.0/
+DelayedResponseModifiers: 2.0/ 5.0/ 3.0/ 1.0/ 4.0/
+NotificationTitle: Fire Near Fuel Source/
+FullMessage: The 911 Dispatch Center has reported a fire in close proximity to a fuel source. It is unclear if standard safety measures will be sufficient./
+TimeLimit: 60/
+NeedsResponse: true
+|
+Score: 125/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 2.0/ 5.0/ 4.0/ 1.0/ 2.0/
+DelayedResponseModifiers: 2.0/ 5.0/ 4.0/ 1.0/ 2.0/
+NotificationTitle: Uncontrolled Fire Reported/
+FullMessage: The 911 Call Center has reported a structure fire in Galveston County. It appears as if the fire started within the building. There are buildings in close proximity to the one engulfed in flames./
+TimeLimit: 60/
+NeedsResponse: true
+|
+Score: 200/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 4.0/ 5.0/ 4.0/ 2.0/ 1.0/
+DelayedResponseModifiers: 4.0/ 5.0/ 4.0/ 2.0/ 1.0/
+NotificationTitle: Unknown Situation/
+FullMessage: The Call Center reported a fire in Galveston County. However, witness reports that there is a strange smell and greenish color coming from the fire./
+TimeLimit: 60/
+NeedsResponse: true

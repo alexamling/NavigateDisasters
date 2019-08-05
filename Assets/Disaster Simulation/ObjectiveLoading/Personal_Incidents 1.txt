@@ -1,0 +1,44 @@
+Score: 50/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 2.0/ 4.0/ 1.0/ 3.0/ 5.0/
+DelayedResponseModifiers: 2.0/ 4.0/ 1.0/ 3.0/ 5.0/
+NotificationTitle: Lost Pet/
+FullMessage: A citizen called in to the emergency line reporting that their pet ran out during the storm and has not been seen since. They are requesting your assistance in finding their beloved pet./
+TimeLimit: 60/
+NeedsResponse: false
+|
+Score: 75/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 5.0/ 4.0/ 1.0/ 2.0/ 3.0/
+DelayedResponseModifiers: 5.0/ 4.0/ 1.0/ 2.0/ 3.0/
+NotificationTitle: Personal Injury/
+FullMessage: During the flooding, a single person was reported as having a personal injury and called the emergency line. The severity is unknown./
+TimeLimit: 60/
+NeedsResponse: false
+|
+Score: 50/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 1.0/ 2.0/ 5.0/ 3.0/ 4.0/
+DelayedResponseModifiers: 1.0/ 2.0/ 5.0/ 3.0/ 4.0/
+NotificationTitle: Flooded Home/
+FullMessage: Homeowners have been calling in reporting their homes being flooded and they are safe, but are requesting County resources to pump the water out of their homes, while there is still water in the area./
+TimeLimit: 60/
+NeedsResponse: false
+|
+Score: 75/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 3.0/ 4.0/ 1.0/ 2.0/ 5.0/
+DelayedResponseModifiers: 3.0/ 4.0/ 1.0/ 2.0/ 5.0/
+NotificationTitle: Other Incident/
+FullMessage: Citizens are requesting assistance at their location. Under normal circumstances, resources would be able to be sent./
+TimeLimit: 60/
+NeedsResponse: false
+|
+Score: 100/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 2.0/ 3.0/ 4.0/ 5.0/ 1.0/
+DelayedResponseModifiers: 2.0/ 3.0/ 4.0/ 5.0/ 1.0/
+NotificationTitle: Disagreements/
+FullMessage: It is being reported that there is a long line of cars at the local gas stations. Not only has this line caused a traffic backup along streets but reports indicate that there is currently a physical confrontation occurring and requires assistance to return the area to normalcy.  ./
+TimeLimit: 60/
+NeedsResponse: true

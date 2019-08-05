@@ -1,0 +1,35 @@
+Inject:The 911 Call Center has been notified about a multi-vehicle accident along Highway 146, which is a highly trafficked area.  Local Responders report: This is a mass casualty incident. As of right now, there are 11 casualties. Right now, there are 6 red, 1 yellow, 2 green, & 2 black. Cars are speeding by & rubbernecking the accident & they are trying their best, but with so many patients & a dangerous situation of traffic, they aren't certain they'll be able to get out quickly.  
+Display
+Option:Delay action until local responders reach out and request aid
+Result:You receive an update from the first responders. The victims' individual conditions have worsened, there are not sufficient emergency vehicles and traffic has not allowed responders to give them treatment. They are requesting traffic control help, but it has been a long time and the victims may not survive.
+Option:Contact Team Lead on-scene for guidance 
+Result:The responders notify you that they are in need of additional services. They inform you that the ambulances can't get through the traffic. If the road is not closed and traffic cleared soon, the triaged red patients will all die.
+Display
+Intervals:0^2/2^4
+Option:Contact the Sheriff's Office to close road to allow ambulances a route out
+Result:Choose a road section to cut off.
+Option:Send Medical Personnel to give enough vehicles
+Result:While the medical vehicles could be useful they are not necessary to function. At this point in time, they are causing more harm than good with the backup of traffic.
+Option:Contact the Department to close a section of road
+Result:Who would you like to send? What section of road would you like to close?
+Option:Issue Public Statement advising public to stay off of roadway
+Result:While the public statement was issued, state patrol is indicating that there has not been a change in traffic flow. Now, rather than reducing injuries, there is appearing to be more injuries as a result of secondary accidents. 
+Display
+Intervals:0^2/2^4/4^6/6^8
+OptionEnd^5:Close a small road section
+Result:You closed the correct road section but it took significant time. 3 critical patients succumbed to their injuries, 1of the critical patients has an increased severity with life-threatening injuries, and the 1 delayed patient is now critical. 
+OptionEnd^6:Close a large road section
+Result:The sheriff's department cannot allocate that many resources to a section of closed road. Due to this factor, ambulances are having to navigate traffic to get patients to the hospital. 4 of the 6 critical patients did not make it to the hospital in time and succumbed to their injuries, the 1 yellow patient is in critical condition
+OptionEnd^8:Transport Patients As Is
+Result:Since you chose to directly send the patients without closing the road, many of the ambulances were stuck in traffic, causing all 6 of the critical patients to pass in the care of paramedics and the 1 delayed patient to be upgraded to life-threatening injury once he reached the hospital. 
+OptionEnd^7:Contact Office to shut down road to allow for transportation
+Result:Because you sent too many medical personnel before shutting the road, there was damage sustained to Emergency Vehicles making 2 unusable for the duration of the disaster. Since you chose to close the road, paramedics were able to transport the patients with 4 of the 6 critical succumbing to their injuries.
+OptionEnd^1:Close the large road section
+Result:Patrols are being sent there now, the section you requested should be closed shortly. You closed the correct road section. All triaged patients made it to the hospital and only 1 critical patient succumbed to their injuries. 	
+OptionEnd^2:Close the small road section
+Result:Patrols are being sent there now, the section you requested should be closed shortly. The section of road you decided to close made traffic worse. All patients made it to the hospital but 2 critical patients succumbed to their injuries and 1 critical patient is in the same serious condition. 
+OptionEnd^4:Deploy Medical Resources Now 
+Result:They are not needed at this time. Responders need a clear path to get resources to the incident.The primary concern of first responders is getting a safe route to transport patients without having to deal with traffic. Because you deployed all medical resources without closing the road, ambulances were damaged & paramedics were injured. In the end, 3 of the critical patients succumbed to their injuries with the rest and the paramedic in the hospital. 
+OptionEnd^3:Deploy Law Enforcement to handle higher flow of traffic
+Result:Since you chose to deploy law enforcement, they were able to successfully control and contain the higher traffic concentration. Paramedics were able to successfully transport all patients with only 2 succumbing to their injuries before reaching the hospital. 
+Display

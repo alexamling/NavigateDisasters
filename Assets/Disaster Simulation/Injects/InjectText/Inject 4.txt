@@ -1,0 +1,27 @@
+Inject:Due to the rising floodwater, a facility for the elderly, both independent and dependent living, is in the path of the floodwater. At this point in time, the facility will only be able to sustain essential operations for 2 more hours. After that, it will no longer be safe for residents and they will require evacuation. If not evacuated, there could be a media disaster as well as great loss of life. As the Emergency Manager, you should work with medical professionals to determine the best route for the residents. 
+Display
+Option:Evacuate the facility. 
+Result:Contact Operations & Planning Department to find the surrounding facilities able to care for residents. There are several facilities in the area that "could" handle the residents. Below is a list of facilities & their coordinates in relation to the site looking to evacuate. 
+Option:Prepare the facility for incoming water
+Result:The floodwaters are estimated to hit within the hour. By not evacuating the facility, it may ensure that more critical patients don't get worse. The current power source is only running on essential function & can last for less than an hour. After that, all power for the facility will be gone. 
+Display
+Intervals:0^2/2^4
+Option:Select the facility that has ample space, but is further from the site
+Result:The residents will be transported to the middle distance site.  They need a means of transportation though, because the facility vehicle is currently in the shop being fixed. 
+OptionEnd^3:Select the facility that is closest
+Result:While you attempted to send the residents to what may have been the closest facility and all were transported, by not selecting the facility that can accommodate a large amount of people for a long duration of time, the standard of service is decreased. Unfortunately, due to the stress of the situation and lack of space, care, and quality, 3 residents have expired during the transport and set-up. 
+Option:Contact Logistics to send in a backup generator to allow function for a longer amount of time
+Result:Logistics happened to have a couple backup generators that, if used only for essential function should work for a couple of days at most. 
+OptionEnd^6:Issue a statement to residents, emergency contacts, and the public about the situation	
+Result:Emergency contacts and family members are attempting to call the nursing home concerned about the safety of their loved one, but are unable to with the water causing damage. They are expressing dislike for not evacuating their loved ones and this choice does not reflect well on the OEM. As a result of the stress, exposure to floodwater, and lack of power 
+Display
+Intervals:0^2/-1/2^4/-1
+OptionEnd^1:Go to the Logistics Office and ask for transportation support and administrative work
+Result:Logistics is able to offer you two 15 passenger vans and 3 pickup trucks of local volunteer firefighters, but cannot give any ambulances. You have successfully transported the nursing home residents to an alternate facility that can adequately care for them until the waters recede. Unfortunately, due to being moved one resident has expired. 
+OptionEnd^2:Rely on nursing home workers and residents to transport themselves to the neighboring facility.
+Result:While you assume that all residents have been successfully transported to the alternate location, by allowing workers and residents to drive personal vehicles without a tracking mechanism to ensure they all arrive, two residents who have shown symptoms of early alzheimers did not show up at the facility.  In addition, due to the stress of the operation, two residents have expired through the phase.  
+OptionEnd^4:Evacuate residents
+Result:You successfully evacuated some of the residents, however by not prioritizing evacuation, 3 residents have expired during transport due to stress and the nature of previous injuries. A handful more have injuries related to exposure to the floodwater. 
+OptionEnd^5:Place anti-flood measures such as sandbags
+Result:By not evacuating, the water was still able to reach the nursing home, but since you implemented anti-flood measures, the actual water levels are low. However, the water did enough damage to kill the generator and spark a flame that caused significant damage to the nursing home, making it unusable for the foreseeable future. 5 people died from the effects of the floodwater, being transported, or from smoke inhalation. 
+Display

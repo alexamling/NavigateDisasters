@@ -1,0 +1,42 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel GenerateTexture
+#pragma kernel GenerateViewMap
+
+// render textures will hold our data
+RWTexture2D<float4> Result;
+RWTexture2D<float4> Pattern; // used as the footprint of the 'view'
+
+float radius;
+float falloff;
+
+int numViewPoints;
+float2 viewPointData[512];
+
+float val;
+
+// this is used to generate the texture that will be placed as the footprint of each viewpoint
+[numthreads(8,8,1)]
+void GenerateTexture (uint3 id : SV_DispatchThreadID)
+{
+	uint w, h;
+	Pattern.GetDimensions(w, h);
+
+	float dist = distance(float3(id.x, id.y, 0), float3(w * .5f, h * .5f, 0));
+
+	val = saturate((dist - radius) / -falloff);
+
+	Pattern[id.xy] = float4(val, val, val, val);
+}
+
+// this combines copies of the pattern to create a single texture with the added values of all viewpoints
+[numthreads(8, 8, 1)]
+void GenerateViewMap(uint3 id : SV_DispatchThreadID)
+{
+	val = Result[id.xy].a - .002;
+	for (int i = 0; i < numViewPoints; i ++) {
+		val += Pattern[float2((int)id.x + viewPointData[i].x, (int)id.y - viewPointData[i].y)];
+	}
+	val = saturate(val);
+
+	Result[id.xy] = float4(val, val, val, val);
+}

@@ -1,0 +1,71 @@
+Score: 50/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 2.0/ 4.0/ 3.0/ 2.0/ 5.0/
+DelayedResponseModifiers: 2.0/ 4.0/ 3.0/ 2.0/ 5.0/
+NotificationTitle: Evacuation Aide Requested/
+FullMessage: Individuals are requesting evacuation because they are concerned for the incoming water, which has not hit their neighborhood quite yet, but has blocked their means of leaving the neighborhood./
+TimeLimit: 60/
+NeedsResponse: false
+|
+Score: 50/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 2.0/ 4.0/ 3.0/ 2.0/ 5.0/
+DelayedResponseModifiers: 2.0/ 4.0/ 3.0/ 2.0/ 5.0/
+NotificationTitle: Family Concerned about Rising Waters/
+FullMessage: A family with children are requesting evacuation because they are concerned for the incoming water, which has not hit their neighborhood quite yet, but has blocked their means of leaving the neighborhood./
+TimeLimit: 60/
+NeedsResponse: false
+|
+Score: 50/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 2.0/ 4.0/ 3.0/ 2.0/ 5.0/
+DelayedResponseModifiers: 2.0/ 4.0/ 3.0/ 2.0/ 5.0/
+NotificationTitle: Elderly requesting Evacuation/
+FullMessage: An elderly couple is requesting evacuation because they are concerned for the incoming water, which has not hit their neighborhood quite yet, but has blocked their means of leaving the neighborhood./
+TimeLimit: 60/
+NeedsResponse: false
+|
+Score: 100/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 2.0/ 4.0/ 3.0/ 2.0/ 5.0/
+DelayedResponseModifiers: 2.0/ 4.0/ 3.0/ 2.0/ 5.0/
+NotificationTitle: Injured individual in need of Evacuation/
+FullMessage: Individuals whose neighborhood have just begun to flood are requesting evacuation assistance. As the water has appeared, means of self-evacuation are gone. Some of the concerns are that one of the evacuees has an open wound on their leg./
+TimeLimit: 60/
+NeedsResponse: true
+|
+Score: 100/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 2.0/ 4.0/ 3.0/ 2.0/ 5.0/
+DelayedResponseModifiers: 2.0/ 4.0/ 3.0/ 2.0/ 5.0/
+NotificationTitle: Elderly in need of Evacuation/
+FullMessage: A group of individuals whose neighborhood has just begun to flood are requesting evacuation assistance. As the water has appeared, means of self-evacuation are gone. One of the couples appears to be an elderly couple with one of the people being mobility impaired./
+TimeLimit: 60/
+NeedsResponse: true
+|
+Score: 100/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 2.0/ 4.0/ 3.0/ 2.0/ 5.0/
+DelayedResponseModifiers: 2.0/ 4.0/ 3.0/ 2.0/ 5.0/
+NotificationTitle: Family in need of Evacuation/
+FullMessage: Multiple families whose neighborhood has begun to flood are requesting evacuation assistance. As the water has appeared, means of self-evacuation are gone. They have several young children with them and need asssistance./
+TimeLimit: 60/
+NeedsResponse: true
+|
+Score: 100/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 2.0/ 4.0/ 3.0/ 2.0/ 5.0/
+DelayedResponseModifiers: 2.0/ 4.0/ 3.0/ 2.0/ 5.0/
+NotificationTitle: Flooding Neighborhood/
+FullMessage: A family whose neighborhood has just begun to flood are requesting evacuation assistance. As the water has appeared, means of self-evacuation are gone. Two of the individuals in this family have coclear implants and are concerned about damage to the device./
+TimeLimit: 60/
+NeedsResponse: true
+|
+Score: 150/
+Location: 1000/ 500/
+ImmediateResponseModifiers: 2.0/ 4.0/ 3.0/ 2.0/ 5.0/
+DelayedResponseModifiers: 2.0/ 4.0/ 3.0/ 2.0/ 5.0/
+NotificationTitle: People Trapped in Homes/
+FullMessage: Individuals are requiring evacuation because the water came in so fast and there was not enough time to evacuate once the water appeared./
+TimeLimit: 60/
+NeedsResponse: true
