@@ -26,6 +26,7 @@ public class rotCam : MonoBehaviour
     GameObject warTable;
     GameObject warPos;
     GameObject door;
+    GameObject EOCTable;
 
     GameObject highlightedObject;
 
@@ -45,6 +46,7 @@ public class rotCam : MonoBehaviour
         otherCamera = GameObject.Find("objCam");
 
         door = GameObject.Find("exitDoor");
+        EOCTable = GameObject.Find("EOCTable");
     }
 
     #endregion
@@ -63,7 +65,7 @@ public class rotCam : MonoBehaviour
             //if an object is successfully hit
             if (Physics.Raycast(ray, out hit, 20.0f, layerMask))
             {
-                //Debug.Log(hit.transform.gameObject);
+                Debug.Log(hit.transform.gameObject);
                 //if (highlightedObject != null)
                     //highlightedObject.GetComponent<Outline>().enabled = true;
 
@@ -134,6 +136,30 @@ public class rotCam : MonoBehaviour
                         //highlightedObject = null;
                         sceneManager manager = GameObject.Find("SceneManager").GetComponent<sceneManager>();
                         manager.nextSceneName = "levelSelect";
+                        manager.LoadScene();
+                    }
+                }
+
+                #endregion
+
+                #region EOCTable
+
+                else if (hit.transform.gameObject == EOCTable)
+                {
+                    //turn on outline
+                    //warTable.GetComponent<Outline>().enabled = true;
+                    //highlightedObject = EOCTable.transform.GetChild(0).gameObject;
+                    highlightedObject = EOCTable;
+                    highlightedObject.GetComponent<Outline>().enabled = true;
+
+                    //on mouse click while outlined, switch cameras and change to a lerping camera state
+                    if (Input.GetMouseButtonDown(0))
+                    {
+                        //warTable.GetComponent<Outline>().enabled = false;
+                        highlightedObject.GetComponent<Outline>().enabled = false;
+                        //highlightedObject = null;
+                        sceneManager manager = GameObject.Find("SceneManager").GetComponent<sceneManager>();
+                        manager.nextSceneName = "MapTesting";
                         manager.LoadScene();
                     }
                 }
