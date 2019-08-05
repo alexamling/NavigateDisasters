@@ -1,0 +1,47 @@
+Thanks for the purchase the money you spent it will be reuse to keep on working on new asset and new contentd
+To try the game complete ONLY ONE MISSION AT TIME.
+Guide:
+The logic s simple before the game start ,the system prepare your mission,you can have max 3 question active each time
+There are 4 different kind of mission.
+-Coins mission called Midas
+-Highscore
+-Frugal test(you don't have to collect anything)
+-Time mission(finish the level in a certain ammount of time)
+After this four mission there will be a white screen you can add every mission you want
+You can find a full explanation in my codes
+The package is made up of 9 scripts:
+After Level:When the level ends a new scene starts where you can check which mission you have accomplished and which doesnt
+Frugal Test:check if coins are collected are 0 or objects collected are 0
+Game:it is very important it keeps track of your progress in the game
+Highscore:check if you have a new high score or not 
+Midas Test:check if you have collected the desire number of coins to accomplish your mission
+SpeedRunTest:have you accomplished the game in the right time?
+Test Start :you can enter in mission world 
+Mission:collect any kind of information about your mission 
+Mission Handler:we can say it is the heart of the projct if you want modify something like the number of current mission ,the max number of mission that is the right
+place.You are free to customize the package for your own game
+Remember to respect the same name of canvas component ,my scripts work with reference to the name so remember if you want to change the name change also the script
+
+How it works?
+It works in a simple way when you press play the test starts you have to press A.
+In game scene you can add coins or complete mission status by clicking on the desire button H for example if you want a new best score
+Remember to complete one mission at time to see what you can do
+There are 3 colors of mission:
+Green:Mission complete
+Red: Mission uncomplete
+Grey:New mission
+You can change the color in mission handler script
+
+How to modify:
+You can add many mission as you want for example if you want to add mission about coins you just need to create 
+a new script call it Midas Test1 for example:
+ return PlayerPrefs.GetInt("gold") >= 20;
+to    
+return PlayerPrefs.GetInt("gold") >= 30; 
+and so on you have to make them child of mission game object and add a mission script with midas test 1
+You can change also the color if you don't like the pre selected color used for button on mission handler gameobject
+
+Expand:
+This package could be an interesting element to avoid waste of time by scripting on a very complex system which you can find in many games like banana kong temple run advenure time ski safari and so on
+If you have any suggestions or desire contact me to simofinch25@gmail.com
+Copyright © UnityGameIta 2016

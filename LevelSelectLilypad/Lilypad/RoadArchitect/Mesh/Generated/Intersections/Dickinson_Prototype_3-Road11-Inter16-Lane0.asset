@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Dickinson_Prototype_3-Road11-Inter16-Lane0
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 42
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 31
+    localAABB:
+      m_Center: {x: -19.75116, y: 0.05671835, z: 2.0982246}
+      m_Extent: {x: 14.80603, y: 0.043281555, z: 2.8617516}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 00000400020004000600020004000800060008000a00060008000c000a000c000e000a000c0010000e00100012000e0010001400120014001600120014001800160018001a00160018001c001a001c001e001a00
+  m_Skin: []
+  m_VertexData:
+    serializedVersion: 2
+    m_VertexCount: 31
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1488
+    _typelessdata: 903a0ac200265c3c2091874079e58bbc72f67f3ff915deb73733cb3a00000000ebff7fbf000080bf0000000000000000903a0ac200265c3c20918740000000000000000000000000000000800000803f000000000000803f0000000000000000a0320ac200265c3c807643bfecd58bbc73f67f3f37750eb8fd38cb3aa5a4fbb6ebff7fbf000080bf0000803f00000000a0320ac200265c3c807643bf000000000000000000000000000000800000803f000000000000803f000000000000000080e9ebc1c0cccc3d90e28740b89c3abcc0fb7f3f921cbeb77e39cb3a19e4a7b6ecff7fbf000080bf00000000b6c3813f80e9ebc1c0cccc3d90e28740000000000000000000000000000000800000803f000000000000803f00000000b6c3813fa0d0ebc1c0cccc3d80ea40bf82aababbeffe7f3fa72a68b7d03ccb3ac3f2a7b6ecff7fbf000080bf0000803f81e0813fa0d0ebc1c0cccc3d80ea40bf000000000000000000000000000000800000803f000000000000803f0000803f81e0813f6072c3c1c0cccc3dd05f8840000000000000803f00000000633ccb3a00000000ecff7fbf000080bf0000000088a001406072c3c1c0cccc3dd05f8840000000000000000000000000000000800000803f000000000000803f0000000088a00140804cc3c1c0cccc3d80fe3cbf000000000000803f00000000ab3dcb3a00000000ecff7fbf000080bf0000803fbac30140804cc3c1c0cccc3d80fe3cbf000000000000000000000000000000800000803f000000000000803f0000803fbac3014020b99ac1c0cccc3d30208940000000000000803f000000009e3ecb3a00000000ecff7fbf000080bf000000001cc9424020b99ac1c0cccc3d30208940000000000000000000000000000000800000803f000000000000803f000000001cc94240a07e9ac1c0cccc3d80f736bf000000000000803f000000009a3ccb3a00000000ecff7fbf000080bf0000803f4e0d4340a07e9ac1c0cccc3d80f736bf000000000000000000000000000000800000803f000000000000803f0000803f4e0d4340401365c1c0cccc3d104f8a40000000000000803f000000003afdcb3a00000000ecff7fbf000080bf00000000c78a8140401365c1c0cccc3d104f8a40000000000000000000000000000000800000803f000000000000803f00000000c78a8140405064c1c0cccc3d00732dbf000000000000803f0000000064623a3b00000000bcff7fbf000080bf0000803f14cc8140405064c1c0cccc3d00732dbf000000000000000000000000000000800000803f000000000000803f0000803f14cc8140803e9ec0c0cccc3d20b89e40000000000000803f000000002cb8623b000000009cff7fbf000080bf000000007fa9bd40803e9ec0c0cccc3d20b89e40000000000000000000000000000000800000803f000000000000803f000000007fa9bd40401014c1c0cccc3d80751bbf000000000000803f0000000086db07bd00000000f2db7fbf000080bf0000803f7ce6a140401014c1c0cccc3d80751bbf000000000000000000000000000000800000803f000000000000803f0000803f7ce6a140803e9ec0c0cccc3d20b89e4000000000ffff7f3f000000001b7db4bd0000000001017fbf000080bf000000007fa9bd40803e9ec0c0cccc3d20b89e40000000000000000000000000000000800000803f000000000000803f000000007fa9bd4080fe02c1c0cccc3d006c0dbe000000000000803f0000000053ba3dbd00000000a8b97fbf000080bf0000803fef5ba94080fe02c1c0cccc3d006c0dbe000000000000000000000000000000800000803f000000000000803f0000803fef5ba940803e9ec0c0cccc3d20b89e40000000000000803f0000000052d268bc0000000063f97fbf000080bf000000007fa9bd40803e9ec0c0cccc3d20b89e40000000000000000000000000000000800000803f000000000000803f000000000000000000879fc0c0cccc3d00382bbd000000000000803f0000000052d268bc0000000063f97fbf000080bf0000803f4edcbd40
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -19.75116, y: 0.05671835, z: 2.0982246}
+    m_Extent: {x: 14.80603, y: 0.043281555, z: 2.8617516}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 0
