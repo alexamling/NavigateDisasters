@@ -8,6 +8,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.Characters.FirstPerson;
 
 /// <summary>
 /// Script attached to the firstperson camera
@@ -155,6 +156,7 @@ public class rotCam : MonoBehaviour
                     //on mouse click while outlined, switch cameras and change to a lerping camera state
                     if (Input.GetMouseButtonDown(0))
                     {
+                        GameObject.FindObjectOfType<FirstPersonController>().lockState = 1;
                         //warTable.GetComponent<Outline>().enabled = false;
                         highlightedObject.GetComponent<Outline>().enabled = false;
                         //highlightedObject = null;

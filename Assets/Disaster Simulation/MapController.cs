@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// This class is responsible for controlling all of the acitons nessicary for the map to run
@@ -147,10 +148,18 @@ public class MapController : MonoBehaviour
         Application.Quit();
     }
 
+    public void ReturnToMenu()
+    {
+        
+        SceneManager.LoadScene("EOCGame");
+    }
 
     // Adds managers and passes values to them
     void Start()
     {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
         //initialize locations
         fireLocations = fireLocationRoot.GetComponentsInChildren<Transform>();
         accidentLocations = accidentLocationRoot.GetComponentsInChildren<Transform>();
