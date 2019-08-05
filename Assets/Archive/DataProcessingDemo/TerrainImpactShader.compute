@@ -1,0 +1,27 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+RWTexture2D<float4> Result;
+
+Texture2D<float4> ExplosionPattern;
+
+float4 ExplosionData[32]; // x pos, y pos, scale, intensity
+int NumImpacts;
+
+[numthreads(8, 8, 1)]
+void CSMain(uint3 id : SV_DispatchThreadID)
+{
+	uint w, h;
+	ExplosionPattern.GetDimensions(w, h);
+
+	float4 Fires = { 0,0,0,0 };
+
+	for (int i = 0; i < NumImpacts; i++) {
+		int3 position = { ExplosionData[i].x * ExplosionData[i].z - (w * .5), ExplosionData[i].y * ExplosionData[i].z - (h * .5), 0 };
+		Fires = Fires + (ExplosionPattern[(id.xy * ExplosionData[i].z) - position.xy] * ExplosionData[i].w);
+	}
+
+	Result[id.xy] = (Fires + Result[id.xy]) * 0.95;
+}
