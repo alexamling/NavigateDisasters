@@ -159,6 +159,7 @@ public class UIManager : MonoBehaviour
         clearGame();
         leftProjector.GetComponent<Image>().overrideSprite = sprite1;
         rightProjector.GetComponent<Image>().overrideSprite = sprite1;
+        howToPanel.SetActive(false);
         mainProjector.transform.GetChild(1).gameObject.SetActive(true);
 
         sceneManager.GetComponent<sceneManager>().nextSceneName = "Menu";
@@ -175,11 +176,13 @@ public class UIManager : MonoBehaviour
         clearGame();
         leftProjector.GetComponent<Image>().overrideSprite = sprite2;
         rightProjector.GetComponent<Image>().overrideSprite = sprite2;
+        howToPanel.SetActive(false);
         mainProjector.transform.GetChild(2).gameObject.SetActive(true);
 
         sceneManager.GetComponent<sceneManager>().nextSceneName = "EOCGame";
 
         spawnedMap = GameObject.Instantiate(mapObject2, mapPoint.position, Quaternion.identity);
+        spawnedMap.transform.Rotate(new Vector3(0, 180, 0));
         spawnedMap.transform.SetParent(GameObject.Find("warTable").transform);
     }
 
