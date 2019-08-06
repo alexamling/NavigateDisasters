@@ -154,6 +154,11 @@ public class MapController : MonoBehaviour
         SceneManager.LoadScene("EOCGame");
     }
 
+    public void ReloadScene()
+    {
+        SceneManager.LoadScene("MapTesting");
+    }
+
     // Adds managers and passes values to them
     void Start()
     {
