@@ -62,7 +62,7 @@ public class PauseManager : MonoBehaviour
 
     public void ExitGame()
     {
-
+        Application.Quit();
     }
 
     public void ReturnToGame()

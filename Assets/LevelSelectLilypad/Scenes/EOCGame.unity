@@ -38,8 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0039977245, g: 0.00021805195, b: 0.00000005159952,
-    a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -918,6 +917,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ReturnToGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544707594349143917, guid: b4efa221084cdd640820926d59fd6110,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1815780966}
+    - target: {fileID: 4544707594349143917, guid: b4efa221084cdd640820926d59fd6110,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ExitGame
       objectReference: {fileID: 0}
     - target: {fileID: 9187056667211008994, guid: b4efa221084cdd640820926d59fd6110,
         type: 3}
@@ -2136,11 +2145,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
-    - target: {fileID: 5232488858435980449, guid: 6a2b0de7b28ba1043a66039689c70f9c,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6a2b0de7b28ba1043a66039689c70f9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2200,6 +2204,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -9.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232488858435980449, guid: 6a2b0de7b28ba1043a66039689c70f9c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7087200961041043365, guid: 6a2b0de7b28ba1043a66039689c70f9c,
         type: 3}
